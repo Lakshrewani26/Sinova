@@ -1,0 +1,1640 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --sinova-ink: #122321;
+  --sinova-deep: #082e29;
+  --sinova-green: #0d5c4c;
+  --sinova-green-hover: #09473b;
+  --sinova-soft-green: #eef5f2;
+  --sinova-lime: #c7ee72;
+  --sinova-muted: #60706c;
+  --sinova-line: #dce4df;
+  --sinova-paper: #f6f8f7;
+  --sinova-white: #ffffff;
+  --sinova-radius: 10px;
+  --sinova-shadow: 0 4px 16px rgba(18, 35, 33, 0.05);
+  --sinova-shadow-hover: 0 8px 28px rgba(18, 35, 33, 0.09);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: var(--sinova-ink);
+  background-color: #f0f4f2;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================================
+   Header & Navigation Styling
+   ========================================================================== */
+
+.sinova-header {
+  background-color: var(--sinova-deep);
+  color: var(--sinova-white);
+  border-bottom: 1px solid #165246;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.sinova-header-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 24px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.sinova-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--sinova-white);
+  font-weight: 800;
+  font-size: 19px;
+  letter-spacing: -0.02em;
+}
+
+.sinova-brand:hover {
+  text-decoration: none;
+  opacity: 0.95;
+}
+
+.sinova-mark {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  display: inline-block;
+}
+
+.sinova-mark i {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background-color: var(--sinova-green);
+  transform: rotate(45deg);
+}
+
+.sinova-mark i:first-child {
+  top: 1px;
+  left: 2px;
+}
+
+.sinova-mark i:nth-child(2) {
+  right: 2px;
+  bottom: 1px;
+}
+
+.sinova-mark i:last-child {
+  width: 9px;
+  height: 9px;
+  top: 8px;
+  left: 8px;
+  background-color: var(--sinova-lime);
+}
+
+.sinova-brand-text {
+  font-weight: 800;
+  font-size: 19px;
+  color: var(--sinova-white);
+}
+
+.sinova-brand-text em {
+  font-style: normal;
+  color: var(--sinova-lime);
+  margin-left: 4px;
+}
+
+.sinova-desktop-nav {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sinova-nav-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 13.5px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #b0cebe;
+  transition: all 0.15s ease;
+}
+
+.sinova-nav-item:hover {
+  color: var(--sinova-white);
+  background: rgba(255, 255, 255, 0.08);
+  text-decoration: none;
+}
+
+.sinova-nav-item.active {
+  color: var(--sinova-lime);
+  font-weight: 700;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.sinova-nav-badge {
+  font-family: "DM Mono", monospace;
+  font-size: 10px;
+  font-weight: 700;
+  background: rgba(199, 238, 114, 0.2);
+  color: var(--sinova-lime);
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-transform: uppercase;
+}
+
+.sinova-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sinova-user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sinova-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #0e433b;
+  color: var(--sinova-lime);
+  font-weight: 800;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid #236357;
+}
+
+.sinova-user-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sinova-user-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sinova-white);
+  line-height: 1.2;
+}
+
+.sinova-user-email {
+  font-size: 11px;
+  color: #8ba89c;
+  line-height: 1.2;
+}
+
+.sinova-logout-form {
+  margin: 0;
+  padding: 0;
+}
+
+.sinova-logout-btn {
+  background: transparent;
+  border: 1px solid #1c5e52;
+  color: #c5ded5;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.sinova-logout-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--sinova-white);
+  border-color: #2a7a6b;
+}
+
+.sinova-logout-btn.block {
+  width: 100%;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.sinova-mobile-toggle {
+  display: none;
+  background: transparent;
+  border: 0;
+  color: var(--sinova-white);
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.sinova-mobile-toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.sinova-mobile-menu {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .sinova-desktop-nav,
+  .sinova-user-info {
+    display: none;
+  }
+
+  .sinova-mobile-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sinova-mobile-menu {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--sinova-deep);
+    border-top: 1px solid #165246;
+    padding: 16px 24px 20px 24px;
+    position: absolute;
+    top: 68px;
+    left: 0;
+    right: 0;
+    z-index: 40;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  }
+
+  .sinova-mobile-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+
+  .sinova-mobile-nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #b0cebe;
+    text-decoration: none;
+  }
+
+  .sinova-mobile-nav-item:hover,
+  .sinova-mobile-nav-item.active {
+    color: var(--sinova-lime);
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .sinova-mobile-user {
+    border-top: 1px solid #165246;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .sinova-mobile-user .sinova-user-info {
+    display: flex;
+  }
+}
+
+/* Page Title Utility */
+.sinova-page-title {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 4px 0 0 0;
+  color: var(--sinova-ink);
+  letter-spacing: -0.01em;
+}
+
+/* ==========================================================================
+   Auth Screens Layout & Components
+   ========================================================================== */
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f4f2;
+  padding: 24px;
+}
+
+.auth-panel {
+  background: #ffffff;
+  border: 1px solid var(--sinova-line);
+  border-radius: 12px;
+  padding: 36px 40px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: var(--sinova-shadow-hover);
+  text-align: left;
+}
+
+.auth-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--sinova-ink);
+  text-decoration: none;
+  margin-bottom: 24px;
+}
+
+.auth-brand em {
+  font-style: normal;
+  color: var(--sinova-green);
+}
+
+.auth-mark {
+  width: 26px;
+  height: 26px;
+  position: relative;
+  display: inline-block;
+}
+
+.auth-mark i {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px;
+  background-color: var(--sinova-green);
+  transform: rotate(45deg);
+}
+
+.auth-mark i:first-child {
+  top: 1px;
+  left: 2px;
+}
+
+.auth-mark i:nth-child(2) {
+  right: 2px;
+  bottom: 1px;
+}
+
+.auth-mark i:last-child {
+  width: 9px;
+  height: 9px;
+  top: 8px;
+  left: 8px;
+  background-color: var(--sinova-lime);
+}
+
+.auth-eyebrow {
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--sinova-green);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin: 0 0 6px 0;
+}
+
+.auth-panel h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--sinova-ink);
+  margin: 0 0 6px 0;
+  letter-spacing: -0.02em;
+}
+
+.auth-subtitle {
+  font-size: 13.5px;
+  color: var(--sinova-muted);
+  margin: 0 0 24px 0;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.auth-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sinova-ink);
+}
+
+.auth-form input {
+  font-family: inherit;
+  font-size: 14px;
+  padding: 11px 14px;
+  border: 1.5px solid #cbd7d2;
+  border-radius: 8px;
+  background: #ffffff;
+  color: var(--sinova-ink);
+  box-sizing: border-box;
+  width: 100%;
+  transition: all 0.15s ease;
+}
+
+.auth-form input:focus {
+  outline: none;
+  border-color: var(--sinova-green);
+  box-shadow: 0 0 0 3.5px rgba(13, 92, 76, 0.15);
+}
+
+.auth-form label span {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: #c92a2a;
+  margin-top: 2px;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--sinova-white);
+  background-color: var(--sinova-green);
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin-top: 8px;
+}
+
+.auth-button:hover {
+  background-color: var(--sinova-deep);
+}
+
+.auth-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.auth-alert {
+  background: #fff5f5;
+  border: 1px solid #ffc9c9;
+  color: #c92a2a;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.auth-switch {
+  font-size: 13px;
+  color: var(--sinova-muted);
+  text-align: center;
+  margin: 12px 0 0 0;
+}
+
+.auth-switch a {
+  color: var(--sinova-green);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.auth-switch a:hover {
+  text-decoration: underline;
+}
+
+.auth-switch.small-link {
+  font-size: 12px;
+  margin-top: 6px;
+}
+
+/* ==========================================================================
+   Workspace Layout Structure
+   ========================================================================== */
+
+.sinova-dashboard-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f4f2;
+}
+
+.sinova-dashboard-main {
+  flex: 1;
+  padding: 32px 24px;
+}
+
+.sinova-container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+/* Breadcrumbs */
+.sinova-breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  font-size: 13px;
+  color: var(--sinova-muted);
+}
+
+.sinova-breadcrumbs a {
+  color: var(--sinova-green);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.sinova-breadcrumbs a:hover {
+  text-decoration: underline;
+}
+
+.sinova-breadcrumb-sep {
+  color: #a0b0ab;
+}
+
+.sinova-breadcrumb-current {
+  color: var(--sinova-ink);
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   Hero Banners & Headers
+   ========================================================================== */
+
+.sinova-welcome-hero {
+  background: #ffffff;
+  border: 1px solid var(--sinova-line);
+  border-radius: var(--sinova-radius);
+  padding: 28px 32px;
+  box-shadow: var(--sinova-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.sinova-eyebrow {
+  display: inline-block;
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--sinova-green);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.sinova-hero-title {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0 0 6px 0;
+  color: var(--sinova-ink);
+  letter-spacing: -0.02em;
+}
+
+.sinova-hero-subtext {
+  margin: 0;
+  font-size: 14px;
+  color: var(--sinova-muted);
+}
+
+.sinova-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: var(--sinova-muted);
+}
+
+.sinova-meta-row .dot {
+  color: #b5c4bf;
+}
+
+/* ==========================================================================
+   Summary Statistics Cards Grid
+   ========================================================================== */
+
+.sinova-summary-section {
+  margin-bottom: 32px;
+}
+
+.sinova-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .sinova-summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 540px) {
+  .sinova-summary-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sinova-stat-card {
+  background: var(--sinova-white);
+  border: 1px solid var(--sinova-line);
+  border-radius: var(--sinova-radius);
+  padding: 20px 22px;
+  box-shadow: var(--sinova-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.2s ease;
+}
+
+.sinova-stat-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sinova-shadow-hover);
+}
+
+.sinova-stat-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.sinova-stat-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sinova-muted);
+}
+
+.sinova-stat-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: var(--sinova-soft-green);
+  color: var(--sinova-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sinova-stat-value {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--sinova-ink);
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.sinova-stat-footer {
+  font-size: 12px;
+  color: var(--sinova-muted);
+}
+
+/* ==========================================================================
+   Content Grid & Panel Cards
+   ========================================================================== */
+
+.sinova-content-grid {
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 28px;
+}
+
+@media (max-width: 860px) {
+  .sinova-content-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sinova-panel-card {
+  background: var(--sinova-white);
+  border: 1px solid var(--sinova-line);
+  border-radius: var(--sinova-radius);
+  box-shadow: var(--sinova-shadow);
+  overflow: hidden;
+}
+
+.sinova-panel-header {
+  padding: 20px 28px;
+  border-bottom: 1px solid var(--sinova-line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sinova-panel-header h1,
+.sinova-panel-header h2 {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+  color: var(--sinova-ink);
+}
+
+.sinova-page-subtitle {
+  margin: 4px 0 0 0;
+  font-size: 13.5px;
+  color: var(--sinova-muted);
+}
+
+.sinova-panel-body {
+  padding: 28px;
+}
+
+/* ==========================================================================
+   Profile Completion Card Widgets
+   ========================================================================== */
+
+.sinova-profile-progress {
+  margin-bottom: 20px;
+}
+
+.sinova-progress-track {
+  width: 100%;
+  height: 8px;
+  background: #eef2f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.sinova-progress-fill {
+  height: 100%;
+  background: var(--sinova-green);
+  border-radius: 4px;
+}
+
+.sinova-progress-text {
+  font-size: 12px;
+  color: var(--sinova-muted);
+  font-weight: 600;
+}
+
+.sinova-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 13px;
+}
+
+.sinova-checklist li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sinova-checklist li.completed {
+  color: var(--sinova-ink);
+  font-weight: 600;
+}
+
+.sinova-checklist li.pending {
+  color: var(--sinova-muted);
+}
+
+.sinova-check-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.sinova-checklist li.completed .sinova-check-icon {
+  background: var(--sinova-soft-green);
+  color: var(--sinova-green);
+}
+
+.sinova-checklist li.pending .sinova-check-icon {
+  background: #f0f4f2;
+  color: #a0b0ab;
+}
+
+.sinova-outline-btn {
+  width: 100%;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sinova-muted);
+  background: transparent;
+  border: 1.5px solid var(--sinova-line);
+  border-radius: 8px;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* ==========================================================================
+   Form Controls & Input Styling
+   ========================================================================== */
+
+.sinova-request-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.sinova-form-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 640px) {
+  .sinova-form-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sinova-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.sinova-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sinova-ink);
+}
+
+.sinova-required {
+  color: #c92a2a;
+}
+
+.sinova-helper-text {
+  font-size: 11.5px;
+  color: var(--sinova-muted);
+}
+
+.sinova-input,
+.sinova-select,
+.sinova-textarea {
+  font-family: inherit;
+  font-size: 14px;
+  color: var(--sinova-ink);
+  background-color: var(--sinova-white);
+  border: 1.5px solid #cbd7d2;
+  border-radius: 8px;
+  padding: 11px 14px;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.sinova-input:hover,
+.sinova-select:hover,
+.sinova-textarea:hover {
+  border-color: #9cb2aa;
+}
+
+.sinova-input:focus,
+.sinova-select:focus,
+.sinova-textarea:focus {
+  outline: none;
+  border-color: var(--sinova-green);
+  box-shadow: 0 0 0 3.5px rgba(13, 92, 76, 0.15);
+}
+
+.sinova-textarea {
+  min-height: 110px;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+/* Custom Select Dropdown Wrapper */
+.sinova-select-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.sinova-select {
+  appearance: none;
+  -webkit-appearance: none;
+  padding-right: 36px;
+  cursor: pointer;
+}
+
+.sinova-select-arrow {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: var(--sinova-muted);
+  display: flex;
+  align-items: center;
+}
+
+/* Prefixed Input for Currency */
+.sinova-input-prefix-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.sinova-input-prefix {
+  position: absolute;
+  left: 14px;
+  font-weight: 700;
+  color: var(--sinova-muted);
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.sinova-input.prefixed {
+  padding-left: 30px;
+}
+
+/* Form Alert Banner */
+.sinova-form-alert {
+  background-color: #fff5f5;
+  border: 1px solid #ffc9c9;
+  color: #c92a2a;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Form Action Buttons */
+.sinova-form-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 14px;
+  margin-top: 12px;
+  padding-top: 20px;
+  border-top: 1px solid var(--sinova-line);
+}
+
+.sinova-cancel-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 20px;
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--sinova-muted);
+  background: transparent;
+  border: 1.5px solid var(--sinova-line);
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.sinova-cancel-btn:hover {
+  background: #eef2f0;
+  color: var(--sinova-ink);
+}
+
+.sinova-submit-btn,
+.sinova-primary-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--sinova-white);
+  background-color: var(--sinova-green);
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  box-shadow: 0 2px 8px rgba(13, 92, 76, 0.25);
+}
+
+.sinova-submit-btn:hover,
+.sinova-primary-cta:hover {
+  background-color: var(--sinova-deep);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(8, 46, 41, 0.3);
+}
+
+.sinova-submit-btn:active,
+.sinova-primary-cta:active {
+  transform: translateY(0);
+}
+
+.sinova-submit-btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.sinova-secondary-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 18px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sinova-green);
+  background-color: var(--sinova-soft-green);
+  border: 1px solid #cce2d9;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.15s ease;
+}
+
+.sinova-secondary-cta:hover {
+  background-color: #dbece5;
+  color: var(--sinova-deep);
+}
+
+/* Spinner Animation */
+.sinova-spinner {
+  animation: sinova-spin 0.8s linear infinite;
+}
+
+@keyframes sinova-spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* ==========================================================================
+   AI Match Recommendation Banner
+   ========================================================================== */
+
+.sinova-top-recommendation-card {
+  background: linear-gradient(135deg, #082e29 0%, #0c4339 100%);
+  color: var(--sinova-white);
+  border-radius: 14px;
+  padding: 26px 32px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  box-shadow: 0 10px 30px rgba(8, 46, 41, 0.25);
+  border: 1px solid #165246;
+}
+
+.sinova-recommendation-tag {
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--sinova-lime);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.sinova-recommendation-title {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 0 0 4px 0;
+  letter-spacing: -0.01em;
+}
+
+.sinova-recommendation-sub {
+  margin: 0;
+  font-size: 13.5px;
+  color: #b0cebe;
+}
+
+.sinova-recommendation-disclaimer {
+  margin-top: 12px;
+  font-size: 11.5px;
+  color: #9cbdb1;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 6px 12px;
+  border-radius: 6px;
+  display: inline-block;
+}
+
+.sinova-recommendation-stats {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.sinova-recommendation-landed {
+  text-align: right;
+}
+
+.sinova-recommendation-landed .label {
+  font-size: 10.5px;
+  font-family: "DM Mono", monospace;
+  color: #b0cebe;
+  display: block;
+}
+
+.sinova-recommendation-landed .amount {
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--sinova-lime);
+  line-height: 1.1;
+}
+
+.sinova-recommendation-landed .unit {
+  font-size: 11px;
+  color: #8fb9a7;
+  display: block;
+}
+
+.sinova-score-badge-circle {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  border: 3px solid var(--sinova-lime);
+  background: #06231f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sinova-score-badge-circle .score-num {
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--sinova-lime);
+  line-height: 1;
+}
+
+.sinova-score-badge-circle .score-lbl {
+  font-size: 8px;
+  font-family: "DM Mono", monospace;
+  color: #8fb9a7;
+  letter-spacing: 0.05em;
+}
+
+/* ==========================================================================
+   Supplier Result Cards
+   ========================================================================== */
+
+.sinova-supplier-card {
+  padding: 24px;
+  transition: all 0.2s ease;
+}
+
+.sinova-supplier-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sinova-shadow-hover);
+}
+
+.sinova-supplier-card.rank-one {
+  border: 2px solid var(--sinova-green);
+  background: #fafcfb;
+}
+
+.sinova-supplier-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.sinova-supplier-badges {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.sinova-rank-badge {
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  font-weight: 700;
+  background: var(--sinova-soft-green);
+  color: var(--sinova-green);
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.sinova-rank-badge.gold {
+  background: var(--sinova-deep);
+  color: var(--sinova-lime);
+}
+
+.sinova-photo-badge {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--sinova-muted);
+  background: #f0f4f2;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+.sinova-supplier-name {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 4px 0 2px 0;
+  color: var(--sinova-ink);
+}
+
+.sinova-supplier-product {
+  margin: 0;
+  font-size: 13px;
+  color: var(--sinova-muted);
+}
+
+.sinova-score-box {
+  text-align: center;
+  padding: 10px 16px;
+  border-radius: 10px;
+  background: var(--sinova-paper);
+  border: 1px solid var(--sinova-line);
+}
+
+.sinova-score-box .lbl {
+  font-size: 9.5px;
+  font-family: "DM Mono", monospace;
+  color: var(--sinova-muted);
+  display: block;
+}
+
+.sinova-score-box .val {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--sinova-green);
+  line-height: 1;
+}
+
+.sinova-score-box .sub {
+  font-size: 10px;
+  color: #8ba09a;
+}
+
+/* 4-Cell Metrics Grid */
+.sinova-metrics-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  background: #f7faf9;
+  border: 1px solid #e1ebe7;
+  border-radius: 8px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+  .sinova-metrics-grid-4 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.sinova-metric-cell .lbl {
+  font-size: 11px;
+  color: var(--sinova-muted);
+  display: block;
+  margin-bottom: 2px;
+}
+
+.sinova-metric-cell .val {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--sinova-ink);
+}
+
+.sinova-metric-cell .val.green {
+  color: var(--sinova-green);
+  font-size: 16px;
+}
+
+.sinova-metric-cell .val.muted {
+  color: #7b8e88;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+/* Landed Cost Breakdown Popover Trigger */
+.sinova-landed-info-container {
+  position: relative;
+}
+
+.sinova-landed-info-trigger {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--sinova-green);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.sinova-landed-info-trigger:hover {
+  color: var(--sinova-deep);
+}
+
+.sinova-landed-popover {
+  margin-top: 10px;
+  background: #ffffff;
+  border: 1.5px solid var(--sinova-line);
+  border-radius: 10px;
+  padding: 18px 20px;
+  box-shadow: 0 10px 30px rgba(18, 35, 33, 0.12);
+  animation: sinova-fade-in 0.15s ease;
+}
+
+@keyframes sinova-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sinova-popover-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.sinova-popover-header h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 800;
+  color: var(--sinova-ink);
+}
+
+.sinova-popover-close {
+  background: transparent;
+  border: 0;
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--sinova-muted);
+}
+
+.sinova-popover-subtext {
+  margin: 0 0 14px 0;
+  font-size: 12px;
+  color: var(--sinova-muted);
+}
+
+.sinova-breakdown-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 12.5px;
+}
+
+.sinova-breakdown-row {
+  display: flex;
+  justify-content: space-between;
+  color: var(--sinova-muted);
+}
+
+.sinova-breakdown-row.total {
+  border-top: 1px solid var(--sinova-line);
+  padding-top: 8px;
+  margin-top: 4px;
+  font-weight: 800;
+  color: var(--sinova-ink);
+  font-size: 13.5px;
+}
+
+.sinova-popover-note {
+  margin-top: 12px;
+  font-size: 11px;
+  color: #72857f;
+  background: #f6f8f7;
+  padding: 8px 12px;
+  border-radius: 6px;
+  line-height: 1.4;
+}
+
+/* Honest Factor Scores List */
+.sinova-factor-scores {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 16px;
+  font-size: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--sinova-line);
+  margin-bottom: 14px;
+}
+
+@media (max-width: 640px) {
+  .sinova-factor-scores {
+    grid-template-columns: 1fr;
+  }
+}
+
+.sinova-factor-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sinova-factor-row .lbl {
+  color: var(--sinova-muted);
+}
+
+.sinova-factor-row .val-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.sinova-factor-row .val-badge.green {
+  background: #e6f4f0;
+  color: var(--sinova-green);
+}
+
+.sinova-factor-row .val-badge.neutral {
+  background: #f0f4f2;
+  color: #6a7c76;
+  font-weight: 500;
+}
+
+/* Card Footer Source Link */
+.sinova-supplier-footer {
+  border-top: 1px solid #ebf2ef;
+  padding-top: 12px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sinova-supplier-footer .source-lbl {
+  color: var(--sinova-muted);
+}
+
+.sinova-supplier-footer .source-link {
+  color: var(--sinova-green);
+  font-weight: 700;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.sinova-supplier-footer .source-link:hover {
+  text-decoration: underline;
+}
+
+/* ==========================================================================
+   Supplier Comparison Matrix Table
+   ========================================================================== */
+
+.sinova-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sinova-comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12.5px;
+  text-align: left;
+}
+
+.sinova-comparison-table th {
+  padding: 12px 14px;
+  font-size: 11px;
+  font-family: "DM Mono", monospace;
+  color: var(--sinova-muted);
+  text-transform: uppercase;
+  background: #f6f8f7;
+  border-bottom: 1px solid var(--sinova-line);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.sinova-comparison-table td {
+  padding: 14px;
+  border-bottom: 1px solid #eef2f0;
+  color: var(--sinova-ink);
+}
+
+.sinova-comparison-table tr:hover td {
+  background: #f8faf9;
+}
+
+.sinova-comparison-table .supplier-name-cell strong {
+  display: block;
+  font-size: 13px;
+  color: var(--sinova-ink);
+}
+
+.sinova-comparison-table .supplier-name-cell small {
+  color: var(--sinova-muted);
+  font-size: 11px;
+}
+
+.sinova-comparison-table .green-cost {
+  color: var(--sinova-green);
+  font-weight: 700;
+}
+
+.sinova-comparison-table .score-cell {
+  text-align: center;
+}
+
+.sinova-comparison-table .score-pill {
+  display: inline-block;
+  padding: 4px 10px;
+  background: var(--sinova-deep);
+  color: var(--sinova-lime);
+  font-weight: 800;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+/* Dashboard Footer */
+.sinova-dashboard-footer {
+  padding: 24px 0;
+  background: #ffffff;
+  border-top: 1px solid var(--sinova-line);
+  text-align: center;
+  font-size: 12.5px;
+  color: var(--sinova-muted);
+  margin-top: 48px;
+}
+
+/* Empty State & Utility Badges */
+.sinova-empty-state {
+  text-align: center;
+  padding: 48px 24px;
+}
+
+.sinova-empty-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: var(--sinova-soft-green);
+  color: var(--sinova-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+}
+
+.sinova-empty-state h3 {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0 0 6px 0;
+}
+
+.sinova-empty-state p {
+  font-size: 14px;
+  color: var(--sinova-muted);
+  margin: 0 0 20px 0;
+}
+
+.sinova-badge-neutral {
+  background: #eef2f0;
+  color: var(--sinova-muted);
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 12px;
+}
+
+/* User Summary Rows */
+.sinova-user-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sinova-summary-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.sinova-summary-key {
+  color: var(--sinova-muted);
+}
+
+.sinova-summary-val {
+  font-weight: 700;
+  color: var(--sinova-ink);
+}

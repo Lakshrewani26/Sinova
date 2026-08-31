@@ -1,0 +1,242 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id               String               @id @default(cuid())
+  name             String
+  email            String               @unique
+  passwordHash     String
+  role             String               @default("BUYER") // BUYER or SUPPLIER
+  manufacturerId   String?
+  createdAt        DateTime             @default(now())
+  updatedAt        DateTime             @updatedAt
+  manufacturer     Manufacturer?        @relation("ManufacturerUsers", fields: [manufacturerId], references: [id], onDelete: SetNull)
+  sessions         Session[]
+  sourcingRequests SourcingRequest[]
+  savedSuppliers   SavedSupplier[]
+  rfqs             Rfq[]
+  orders           Order[]
+  statusHistory    OrderStatusHistory[]
+}
+
+model Session {
+  id        String   @id @default(cuid())
+  tokenHash String   @unique
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model Category {
+  id               String            @id @default(cuid())
+  name             String            @unique
+  slug             String            @unique
+  description      String?
+  products         Product[]
+  sourcingRequests SourcingRequest[]
+}
+
+model Manufacturer {
+  id               String          @id @default(cuid())
+  name             String          @unique
+  location         String?
+  country          String          @default("China")
+  rating           Float?
+  qualityScore     Float?
+  reliabilityScore Float?
+  leadTimeDays     Int?
+  verified         Boolean         @default(false)
+  products         Product[]
+  matches          SupplierMatch[]
+  savedBy          SavedSupplier[]
+  rfqs             Rfq[]
+  quotations       Quotation[]
+  orders           Order[]
+  users            User[]          @relation("ManufacturerUsers")
+  createdAt        DateTime        @default(now())
+}
+
+model SavedSupplier {
+  id             String       @id @default(cuid())
+  userId         String
+  manufacturerId String
+  createdAt      DateTime     @default(now())
+  user           User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  manufacturer   Manufacturer @relation(fields: [manufacturerId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, manufacturerId])
+  @@index([userId])
+}
+
+model Product {
+  id             String          @id @default(cuid())
+  catalogId      String          @unique
+  name           String
+  manufacturerId String
+  categoryId     String
+  unitPriceINR   Float
+  moq            Int?
+  leadTimeDays   Int?
+  specifications String?
+  sourceUrl      String?
+  photoStatus    String?
+  manufacturer   Manufacturer    @relation(fields: [manufacturerId], references: [id], onDelete: Cascade)
+  category       Category        @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  matches        SupplierMatch[]
+  rfqs           Rfq[]
+  quotations     Quotation[]
+  orders         Order[]
+}
+
+model SourcingRequest {
+  id              String          @id @default(cuid())
+  userId          String
+  title           String
+  categoryId      String
+  quantity        Int
+  targetBudgetINR Float
+  maxLeadTimeDays Int
+  specifications  String?
+  status          String          @default("ACTIVE") // ACTIVE, MATCHED, COMPLETED
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt @default(now())
+  user            User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+  category        Category        @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+  matches         SupplierMatch[]
+  rfqs            Rfq[]
+}
+
+model SupplierMatch {
+  id                  String          @id @default(cuid())
+  sourcingRequestId   String
+  manufacturerId      String
+  productId           String
+  sinovaScore         Int
+  qualityScore        Int?
+  priceFitScore       Int
+  moqFitScore         Int?
+  deliveryScore       Int?
+  reliabilityScore    Int?
+  estimatedLandedCost Float
+  createdAt           DateTime        @default(now())
+  sourcingRequest     SourcingRequest @relation(fields: [sourcingRequestId], references: [id], onDelete: Cascade)
+  manufacturer        Manufacturer    @relation(fields: [manufacturerId], references: [id], onDelete: Cascade)
+  product             Product         @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@unique([sourcingRequestId, manufacturerId, productId])
+}
+
+model Rfq {
+  id                String           @id @default(cuid())
+  userId            String
+  sourcingRequestId String?
+  manufacturerId    String
+  productId         String
+  quantity          Int
+  targetUnitPrice   Float
+  message           String?
+  status            String           @default("SENT") // DRAFT, SENT, QUOTATION_RECEIVED, ACCEPTED, REJECTED, CANCELLED
+  createdAt         DateTime         @default(now())
+  updatedAt         DateTime         @updatedAt
+
+  user            User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  sourcingRequest SourcingRequest? @relation(fields: [sourcingRequestId], references: [id], onDelete: SetNull)
+  manufacturer    Manufacturer     @relation(fields: [manufacturerId], references: [id], onDelete: Cascade)
+  product         Product          @relation(fields: [productId], references: [id], onDelete: Cascade)
+  quotations      Quotation[]
+  orders          Order[]
+
+  @@index([userId])
+  @@index([sourcingRequestId])
+  @@index([manufacturerId])
+  @@index([status])
+}
+
+model Quotation {
+  id              String       @id @default(cuid())
+  rfqId           String
+  manufacturerId  String
+  productId       String
+  quotedUnitPrice Float
+  quantity        Int
+  moq             Int?
+  leadTimeDays    Int?
+  shippingCost    Float        @default(0)
+  validUntil      DateTime?
+  supplierNotes   String?
+  status          String       @default("RECEIVED") // RECEIVED, ACCEPTED, REJECTED, EXPIRED
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  rfq          Rfq          @relation(fields: [rfqId], references: [id], onDelete: Cascade)
+  manufacturer Manufacturer @relation(fields: [manufacturerId], references: [id], onDelete: Cascade)
+  product      Product      @relation(fields: [productId], references: [id], onDelete: Cascade)
+  order        Order?
+
+  @@index([rfqId])
+  @@index([manufacturerId])
+  @@index([status])
+}
+
+model Order {
+  id               String   @id @default(cuid())
+  orderNumber      String   @unique
+
+  userId           String
+  rfqId            String?
+  quotationId      String   @unique
+  manufacturerId   String
+  productId        String
+
+  quantity         Int
+  unitPrice        Float
+  shippingCost     Float    @default(0)
+  totalAmount      Float
+
+  status           String   @default("ORDER_CREATED") // ORDER_CREATED, SUPPLIER_CONFIRMED, IN_PRODUCTION, READY_TO_SHIP, COMPLETED, CANCELLED
+
+  buyerNotes       String?
+  supplierNotes    String?
+
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  user          User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+  rfq           Rfq?                 @relation(fields: [rfqId], references: [id], onDelete: SetNull)
+  quotation     Quotation            @relation(fields: [quotationId], references: [id], onDelete: Cascade)
+  manufacturer  Manufacturer         @relation(fields: [manufacturerId], references: [id], onDelete: Cascade)
+  product       Product              @relation(fields: [productId], references: [id], onDelete: Cascade)
+  statusHistory OrderStatusHistory[]
+
+  @@index([userId])
+  @@index([rfqId])
+  @@index([quotationId])
+  @@index([manufacturerId])
+  @@index([status])
+}
+
+model OrderStatusHistory {
+  id        String   @id @default(cuid())
+  orderId   String
+  userId    String
+  status    String
+  note      String?
+  createdAt DateTime @default(now())
+
+  order Order @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  user  User  @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([orderId])
+  @@index([userId])
+  @@index([createdAt])
+}

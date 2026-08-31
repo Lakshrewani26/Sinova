@@ -1,0 +1,29 @@
+{
+  "name": "sinova-ai",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "eslint app lib eslint.config.mjs next.config.mjs",
+    "prisma:generate": "node node_modules/prisma/build/index.js generate --schema prisma/schema.prisma",
+    "prisma:migrate": "node node_modules/prisma/build/index.js migrate dev --schema prisma/schema.prisma",
+    "start": "next start",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "bcryptjs": "^3.0.3",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "@types/react": "^19.1.2",
+    "@types/react-dom": "^19.1.2",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^15.5.23",
+    "prisma": "^6.19.3",
+    "typescript": "^5.8.3"
+  }
+}
