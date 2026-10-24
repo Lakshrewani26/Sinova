@@ -192,7 +192,7 @@ export default async function RfqDetailPage({ params }: PageProps) {
             </div>
 
             {rfq.quotations.length === 0 ? (
-              <div className="sinova-panel-card sinova-empty-state">
+              <div className="sinova-panel-card sinova-empty-state" style={{ padding: "48px 24px" }}>
                 <div className="sinova-empty-icon">
                   <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
@@ -201,8 +201,8 @@ export default async function RfqDetailPage({ params }: PageProps) {
                   </svg>
                 </div>
                 <h3>Awaiting Supplier Quotation</h3>
-                <p style={{ maxWidth: "540px" }}>
-                  RFQ has been sent to <strong>{rfq.manufacturer.name}</strong>. Log into the demo supplier account for {rfq.manufacturer.name} to submit a formal quotation.
+                <p style={{ maxWidth: "560px", margin: "0 auto", textAlign: "center", lineHeight: "1.65" }}>
+                  RFQ has been sent to <strong style={{ color: "var(--sinova-green)", fontWeight: 800 }}>{rfq.manufacturer.name}</strong>. Log into the demo supplier account for <strong style={{ color: "var(--sinova-green)", fontWeight: 800 }}>{rfq.manufacturer.name}</strong> to submit a formal quotation.
                 </p>
               </div>
             ) : (

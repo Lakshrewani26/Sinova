@@ -161,7 +161,9 @@ export default async function DashboardPage() {
           {/* Welcome Hero Banner */}
           <section className="sinova-welcome-hero" style={{ marginBottom: "24px" }}>
             <div className="sinova-hero-content">
-              <span className="sinova-eyebrow">PROCUREMENT INTELLIGENCE COMMAND CENTER</span>
+              <span className="sinova-eyebrow">
+                <span className="sinova-live-pulse" /> PROCUREMENT INTELLIGENCE COMMAND CENTER
+              </span>
               <h1 className="sinova-hero-title">Welcome back, {firstName}</h1>
               <p className="sinova-hero-subtext">
                 Real-time operational metrics and sourcing workflow pipeline. {memberSince ? `Member since ${memberSince}.` : ""}
@@ -170,7 +172,8 @@ export default async function DashboardPage() {
 
             <div className="sinova-hero-actions">
               <Link href="/requirements/new" className="sinova-primary-cta">
-                + New Sourcing Request
+                <span>+ New Sourcing Request</span>
+                <span style={{ fontSize: "16px" }}>&rarr;</span>
               </Link>
             </div>
           </section>
@@ -178,19 +181,36 @@ export default async function DashboardPage() {
           {/* Data Honesty Disclaimer Notice */}
           <div
             style={{
-              background: "#eef5f2",
+              background: "linear-gradient(135deg, #eef5f2 0%, #e5f1ec 100%)",
               border: "1.5px solid #a4d3c3",
-              borderRadius: "10px",
-              padding: "14px 20px",
+              borderRadius: "12px",
+              padding: "16px 22px",
               marginBottom: "28px",
               display: "flex",
               alignItems: "center",
-              gap: "12px",
+              gap: "14px",
+              boxShadow: "0 2px 8px rgba(13, 92, 76, 0.05)",
             }}
           >
-            <span style={{ color: "#0d5c4c", fontWeight: 800, fontSize: "16px" }}>ℹ</span>
-            <span style={{ fontSize: "12.5px", color: "#4f635d", lineHeight: 1.4 }}>
-              <strong>Internal Procurement Command Center:</strong> All statistics are calculated directly from your database records. Procurement status changes are recorded internally by the buyer.
+            <div
+              style={{
+                width: "28px",
+                height: "28px",
+                borderRadius: "50%",
+                background: "var(--sinova-green)",
+                color: "var(--sinova-lime)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontWeight: 800,
+                fontSize: "14px",
+                flexShrink: 0,
+              }}
+            >
+              ℹ
+            </div>
+            <span style={{ fontSize: "13px", color: "#37524a", lineHeight: 1.45 }}>
+              <strong style={{ color: "var(--sinova-deep)" }}>Internal Procurement Intelligence Command Center:</strong> All operational metrics, supplier matches, quotations, and order states are computed live from your database records.
             </span>
           </div>
 
@@ -366,136 +386,167 @@ export default async function DashboardPage() {
               <div
                 style={{
                   display: "grid",
-                  gridTemplateColumns: "repeat(auto-fit, minmax(140px, 1fr))",
-                  gap: "12px",
-                  alignItems: "center",
+                  gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+                  gap: "14px",
+                  alignItems: "stretch",
                 }}
               >
                 {/* Stage 1: Requests */}
                 <Link
                   href="/requirements"
+                  className="sinova-stat-card"
                   style={{
-                    background: "#f6f8f7",
+                    background: "#ffffff",
                     border: "1.5px solid #dce4df",
-                    borderRadius: "10px",
-                    padding: "16px",
+                    borderRadius: "12px",
+                    padding: "16px 18px",
                     textDecoration: "none",
                     textAlign: "center",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                    transition: "all 0.2s var(--sinova-ease)",
                   }}
                 >
-                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block", marginBottom: "4px" }}>
-                    STAGE 1
+                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "var(--sinova-green)", fontWeight: 700, display: "block", marginBottom: "4px" }}>
+                    STAGE 01
                   </span>
-                  <strong style={{ fontSize: "22px", fontWeight: 800, color: "#122321", display: "block" }}>
+                  <strong style={{ fontSize: "26px", fontWeight: 800, color: "var(--sinova-ink)", display: "block", margin: "2px 0" }}>
                     {pipelineRequestsCount}
                   </strong>
-                  <span style={{ fontSize: "12.5px", fontWeight: 700, color: "#0d5c4c" }}>Requests</span>
+                  <span style={{ fontSize: "13px", fontWeight: 700, color: "var(--sinova-green)" }}>Requests &rarr;</span>
                 </Link>
 
                 {/* Stage 2: Matches */}
                 <Link
                   href="/requirements"
+                  className="sinova-stat-card"
                   style={{
-                    background: "#f6f8f7",
+                    background: "#ffffff",
                     border: "1.5px solid #dce4df",
-                    borderRadius: "10px",
-                    padding: "16px",
+                    borderRadius: "12px",
+                    padding: "16px 18px",
                     textDecoration: "none",
                     textAlign: "center",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                    transition: "all 0.2s var(--sinova-ease)",
                   }}
                 >
-                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block", marginBottom: "4px" }}>
-                    STAGE 2
+                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "var(--sinova-green)", fontWeight: 700, display: "block", marginBottom: "4px" }}>
+                    STAGE 02
                   </span>
-                  <strong style={{ fontSize: "22px", fontWeight: 800, color: "#122321", display: "block" }}>
+                  <strong style={{ fontSize: "26px", fontWeight: 800, color: "var(--sinova-ink)", display: "block", margin: "2px 0" }}>
                     {pipelineMatchesCount}
                   </strong>
-                  <span style={{ fontSize: "12.5px", fontWeight: 700, color: "#0d5c4c" }}>Matches</span>
+                  <span style={{ fontSize: "13px", fontWeight: 700, color: "var(--sinova-green)" }}>Matches &rarr;</span>
                 </Link>
 
                 {/* Stage 3: RFQs */}
                 <Link
                   href="/rfqs"
+                  className="sinova-stat-card"
                   style={{
-                    background: "#f6f8f7",
+                    background: "#ffffff",
                     border: "1.5px solid #dce4df",
-                    borderRadius: "10px",
-                    padding: "16px",
+                    borderRadius: "12px",
+                    padding: "16px 18px",
                     textDecoration: "none",
                     textAlign: "center",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                    transition: "all 0.2s var(--sinova-ease)",
                   }}
                 >
-                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block", marginBottom: "4px" }}>
-                    STAGE 3
+                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "var(--sinova-green)", fontWeight: 700, display: "block", marginBottom: "4px" }}>
+                    STAGE 03
                   </span>
-                  <strong style={{ fontSize: "22px", fontWeight: 800, color: "#122321", display: "block" }}>
+                  <strong style={{ fontSize: "26px", fontWeight: 800, color: "var(--sinova-ink)", display: "block", margin: "2px 0" }}>
                     {pipelineRfqsCount}
                   </strong>
-                  <span style={{ fontSize: "12.5px", fontWeight: 700, color: "#0d5c4c" }}>RFQs Sent</span>
+                  <span style={{ fontSize: "13px", fontWeight: 700, color: "var(--sinova-green)" }}>RFQs Sent &rarr;</span>
                 </Link>
 
                 {/* Stage 4: Quotes */}
                 <Link
                   href="/rfqs"
+                  className="sinova-stat-card"
                   style={{
-                    background: "#f6f8f7",
+                    background: "#ffffff",
                     border: "1.5px solid #dce4df",
-                    borderRadius: "10px",
-                    padding: "16px",
+                    borderRadius: "12px",
+                    padding: "16px 18px",
                     textDecoration: "none",
                     textAlign: "center",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                    transition: "all 0.2s var(--sinova-ease)",
                   }}
                 >
-                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block", marginBottom: "4px" }}>
-                    STAGE 4
+                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "var(--sinova-green)", fontWeight: 700, display: "block", marginBottom: "4px" }}>
+                    STAGE 04
                   </span>
-                  <strong style={{ fontSize: "22px", fontWeight: 800, color: "#122321", display: "block" }}>
+                  <strong style={{ fontSize: "26px", fontWeight: 800, color: "var(--sinova-ink)", display: "block", margin: "2px 0" }}>
                     {pipelineQuotesCount}
                   </strong>
-                  <span style={{ fontSize: "12.5px", fontWeight: 700, color: "#0d5c4c" }}>Quotes</span>
+                  <span style={{ fontSize: "13px", fontWeight: 700, color: "var(--sinova-green)" }}>Quotes &rarr;</span>
                 </Link>
 
                 {/* Stage 5: Orders */}
                 <Link
                   href="/orders"
+                  className="sinova-stat-card"
                   style={{
-                    background: "#f6f8f7",
+                    background: "#ffffff",
                     border: "1.5px solid #dce4df",
-                    borderRadius: "10px",
-                    padding: "16px",
+                    borderRadius: "12px",
+                    padding: "16px 18px",
                     textDecoration: "none",
                     textAlign: "center",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                    transition: "all 0.2s var(--sinova-ease)",
                   }}
                 >
-                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block", marginBottom: "4px" }}>
-                    STAGE 5
+                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "var(--sinova-green)", fontWeight: 700, display: "block", marginBottom: "4px" }}>
+                    STAGE 05
                   </span>
-                  <strong style={{ fontSize: "22px", fontWeight: 800, color: "#122321", display: "block" }}>
+                  <strong style={{ fontSize: "26px", fontWeight: 800, color: "var(--sinova-ink)", display: "block", margin: "2px 0" }}>
                     {pipelineOrdersCount}
                   </strong>
-                  <span style={{ fontSize: "12.5px", fontWeight: 700, color: "#0d5c4c" }}>Orders Created</span>
+                  <span style={{ fontSize: "13px", fontWeight: 700, color: "var(--sinova-green)" }}>Orders &rarr;</span>
                 </Link>
 
                 {/* Stage 6: Completed */}
                 <Link
                   href="/orders?status=COMPLETED"
+                  className="sinova-stat-card"
                   style={{
-                    background: "#082e29",
-                    border: "1.5px solid #082e29",
-                    borderRadius: "10px",
-                    padding: "16px",
+                    background: "linear-gradient(135deg, #06231f 0%, #0d463b 100%)",
+                    border: "1.5px solid #165246",
+                    borderRadius: "12px",
+                    padding: "16px 18px",
                     textDecoration: "none",
                     textAlign: "center",
                     color: "#ffffff",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "space-between",
+                    boxShadow: "0 8px 20px -4px rgba(6, 35, 31, 0.35)",
+                    transition: "all 0.2s var(--sinova-ease)",
                   }}
                 >
-                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "#8a9e97", display: "block", marginBottom: "4px" }}>
-                    STAGE 6
+                  <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "var(--sinova-lime)", fontWeight: 700, display: "block", marginBottom: "4px" }}>
+                    STAGE 06
                   </span>
-                  <strong style={{ fontSize: "22px", fontWeight: 800, color: "#c7ee72", display: "block" }}>
+                  <strong style={{ fontSize: "26px", fontWeight: 800, color: "var(--sinova-lime)", display: "block", margin: "2px 0", textShadow: "0 0 16px rgba(199,238,114,0.4)" }}>
                     {completedOrdersCount}
                   </strong>
-                  <span style={{ fontSize: "12.5px", fontWeight: 700, color: "#ffffff" }}>Completed</span>
+                  <span style={{ fontSize: "13px", fontWeight: 800, color: "#ffffff" }}>Completed ✓</span>
                 </Link>
               </div>
             </div>
@@ -504,7 +555,7 @@ export default async function DashboardPage() {
           {/* Brand New Account Polished Empty State Onboarding Banner */}
           {isBrandNewUser && (
             <section style={{ marginBottom: "32px" }}>
-              <div className="sinova-panel-card sinova-empty-state" style={{ padding: "40px 24px" }}>
+              <div className="sinova-panel-card sinova-empty-state" style={{ padding: "48px 24px" }}>
                 <div className="sinova-empty-icon">
                   <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                     <circle cx="12" cy="12" r="10" />
@@ -513,7 +564,7 @@ export default async function DashboardPage() {
                   </svg>
                 </div>
                 <h2>No procurement activity yet</h2>
-                <p style={{ maxWidth: "540px" }}>
+                <p>
                   Create your first sourcing request to start discovering manufacturers, requesting quotes, and managing procurement orders.
                 </p>
                 <Link href="/requirements/new" className="sinova-primary-cta">
@@ -568,32 +619,36 @@ export default async function DashboardPage() {
                         <Link
                           key={order.id}
                           href={`/orders/${order.id}`}
+                          className="sinova-stat-card"
                           style={{
                             display: "flex",
                             alignItems: "center",
                             justifyContent: "space-between",
-                            padding: "14px 18px",
-                            background: "#f6f8f7",
-                            border: "1px solid #dce4df",
-                            borderRadius: "8px",
+                            padding: "16px 20px",
+                            background: "#ffffff",
+                            border: "1.5px solid #dce4df",
+                            borderLeft: "4px solid var(--sinova-green)",
+                            borderRadius: "10px",
                             textDecoration: "none",
                             gap: "16px",
                             flexWrap: "wrap",
+                            transition: "all 0.2s var(--sinova-ease)",
                           }}
                         >
                           <div>
                             <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
-                              <strong style={{ fontSize: "14.5px", color: "#122321" }}>
+                              <strong style={{ fontSize: "14.5px", color: "var(--sinova-ink)", fontWeight: 800 }}>
                                 {order.orderNumber}
                               </strong>
                               <span
                                 style={{
                                   fontSize: "11px",
                                   fontWeight: 800,
-                                  backgroundColor: "#eef5f2",
-                                  color: "#0d5c4c",
-                                  padding: "2px 8px",
-                                  borderRadius: "10px",
+                                  backgroundColor: "var(--sinova-mint)",
+                                  color: "var(--sinova-green)",
+                                  padding: "3px 10px",
+                                  borderRadius: "12px",
+                                  border: "1px solid #b7dcce",
                                 }}
                               >
                                 {order.status}
@@ -604,13 +659,16 @@ export default async function DashboardPage() {
                             </span>
                           </div>
 
-                          <div style={{ textAlign: "right" }}>
-                            <strong style={{ fontSize: "15px", color: "#082e29", display: "block" }}>
-                              ₹{order.totalAmount.toLocaleString()}
-                            </strong>
-                            <span style={{ fontSize: "11px", color: "#8a9e97" }}>
-                              Activity: {lastActivityDate}
-                            </span>
+                          <div style={{ display: "flex", alignItems: "center", gap: "16px" }}>
+                            <div style={{ textAlign: "right" }}>
+                              <strong style={{ fontSize: "16px", color: "var(--sinova-deep)", display: "block", fontWeight: 800 }}>
+                                ₹{order.totalAmount.toLocaleString()}
+                              </strong>
+                              <span style={{ fontSize: "11px", color: "#8a9e97" }}>
+                                Activity: {lastActivityDate}
+                              </span>
+                            </div>
+                            <span style={{ color: "var(--sinova-green)", fontSize: "18px", fontWeight: 700 }}>&rarr;</span>
                           </div>
                         </Link>
                       );
@@ -624,37 +682,95 @@ export default async function DashboardPage() {
             <div className="sinova-panel-card">
               <div className="sinova-panel-header">
                 <h2>Procurement Value Summary</h2>
+                <span className="sinova-badge-neutral">INR (₹)</span>
               </div>
               <div className="sinova-panel-body">
                 <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
-                  <div style={{ background: "#f6f8f7", border: "1px solid #dce4df", borderRadius: "8px", padding: "16px" }}>
-                    <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block", textTransform: "uppercase", marginBottom: "4px" }}>
+                  <div
+                    style={{
+                      background: "linear-gradient(135deg, #f6f8f7 0%, #edf5f1 100%)",
+                      border: "1.5px solid #dce4df",
+                      borderRadius: "12px",
+                      padding: "18px 20px",
+                      position: "relative",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        right: 0,
+                        height: "4px",
+                        background: "linear-gradient(90deg, var(--sinova-green), var(--sinova-lime))",
+                      }}
+                    />
+                    <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "var(--sinova-green)", display: "block", textTransform: "uppercase", marginBottom: "6px", fontWeight: 700, letterSpacing: "0.5px" }}>
                       TOTAL PROCUREMENT VALUE
                     </span>
-                    <strong style={{ fontSize: "24px", fontWeight: 800, color: "#082e29", display: "block" }}>
+                    <strong style={{ fontSize: "26px", fontWeight: 800, color: "var(--sinova-deep)", display: "block", marginBottom: "4px" }}>
                       ₹{totalProcurementValue.toLocaleString()}
                     </strong>
-                    <span style={{ fontSize: "11.5px", color: "#60706c" }}>Sum of all non-cancelled order values</span>
+                    <span style={{ fontSize: "12px", color: "#60706c" }}>Sum of all non-cancelled order values</span>
                   </div>
 
-                  <div style={{ background: "#f6f8f7", border: "1px solid #dce4df", borderRadius: "8px", padding: "16px" }}>
-                    <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block", textTransform: "uppercase", marginBottom: "4px" }}>
-                      ACTIVE / ACCEPTED ORDER VALUE
+                  <div
+                    style={{
+                      background: "#ffffff",
+                      border: "1.5px solid #dce4df",
+                      borderRadius: "12px",
+                      padding: "16px 20px",
+                      position: "relative",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        right: 0,
+                        height: "3px",
+                        background: "var(--sinova-green)",
+                      }}
+                    />
+                    <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block", textTransform: "uppercase", marginBottom: "4px", fontWeight: 700 }}>
+                      ACTIVE / IN-FLIGHT ORDER VALUE
                     </span>
-                    <strong style={{ fontSize: "20px", fontWeight: 800, color: "#0d5c4c", display: "block" }}>
+                    <strong style={{ fontSize: "22px", fontWeight: 800, color: "var(--sinova-green)", display: "block", marginBottom: "4px" }}>
                       ₹{activeOrderValue.toLocaleString()}
                     </strong>
-                    <span style={{ fontSize: "11.5px", color: "#60706c" }}>Value currently in production/fulfillment</span>
+                    <span style={{ fontSize: "12px", color: "#60706c" }}>Value currently in production or fulfillment</span>
                   </div>
 
-                  <div style={{ background: "#f6f8f7", border: "1px solid #dce4df", borderRadius: "8px", padding: "16px" }}>
-                    <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block", textTransform: "uppercase", marginBottom: "4px" }}>
+                  <div
+                    style={{
+                      background: "#ffffff",
+                      border: "1.5px solid #dce4df",
+                      borderRadius: "12px",
+                      padding: "16px 20px",
+                      position: "relative",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <div
+                      style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        right: 0,
+                        height: "3px",
+                        background: "var(--sinova-ink)",
+                      }}
+                    />
+                    <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block", textTransform: "uppercase", marginBottom: "4px", fontWeight: 700 }}>
                       COMPLETED PROCUREMENT VALUE
                     </span>
-                    <strong style={{ fontSize: "20px", fontWeight: 800, color: "#122321", display: "block" }}>
+                    <strong style={{ fontSize: "22px", fontWeight: 800, color: "var(--sinova-ink)", display: "block", marginBottom: "4px" }}>
                       ₹{completedOrderValue.toLocaleString()}
                     </strong>
-                    <span style={{ fontSize: "11.5px", color: "#60706c" }}>Value of fully completed orders</span>
+                    <span style={{ fontSize: "12px", color: "#60706c" }}>Value of fully fulfilled orders</span>
                   </div>
                 </div>
               </div>
@@ -673,7 +789,7 @@ export default async function DashboardPage() {
                 <span className="sinova-badge-neutral">Audit Log Feed</span>
               </div>
 
-              <div className="sinova-panel-body" style={{ padding: "16px 24px" }}>
+              <div className="sinova-panel-body" style={{ padding: "20px 24px" }}>
                 {recentActivityList.length === 0 ? (
                   <div className="sinova-empty-state" style={{ padding: "24px 16px" }}>
                     <h3 style={{ fontSize: "15px", fontWeight: 700 }}>No activity events recorded</h3>
@@ -682,7 +798,19 @@ export default async function DashboardPage() {
                     </p>
                   </div>
                 ) : (
-                  <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+                  <div style={{ position: "relative", paddingLeft: "26px", display: "flex", flexDirection: "column", gap: "14px" }}>
+                    {/* Vertical timeline spine */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        left: "9px",
+                        top: "14px",
+                        bottom: "14px",
+                        width: "2px",
+                        background: "#dce4df",
+                        borderRadius: "2px",
+                      }}
+                    />
                     {recentActivityList.map((act) => {
                       const eventDate = new Date(act.createdAt);
                       const now = new Date();
@@ -710,50 +838,68 @@ export default async function DashboardPage() {
                       const actionTitle = statusLabels[act.status] || act.status;
 
                       return (
-                        <Link
-                          key={act.id}
-                          href={`/orders/${act.orderId}`}
-                          style={{
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "space-between",
-                            padding: "12px 16px",
-                            background: "#f6f8f7",
-                            border: "1px solid #dce4df",
-                            borderRadius: "8px",
-                            textDecoration: "none",
-                            gap: "12px",
-                            flexWrap: "wrap",
-                          }}
-                        >
-                          <div>
-                            <strong style={{ fontSize: "14px", color: "#122321", display: "block" }}>
-                              Order {act.order.orderNumber}
-                            </strong>
-                            <span style={{ fontSize: "12.5px", color: "#0d5c4c", fontWeight: 700 }}>
-                              {actionTitle}
-                            </span>
-                            {act.note && (
-                              <span style={{ fontSize: "12px", color: "#60706c", display: "block", marginTop: "2px" }}>
-                                &quot;{act.note}&quot;
-                              </span>
-                            )}
-                          </div>
-
-                          <span
+                        <div key={act.id} style={{ position: "relative" }}>
+                          {/* Timeline node */}
+                          <div
                             style={{
-                              fontSize: "11px",
-                              fontFamily: "DM Mono, monospace",
-                              color: "#60706c",
+                              position: "absolute",
+                              left: "-22px",
+                              top: "14px",
+                              width: "12px",
+                              height: "12px",
+                              borderRadius: "50%",
+                              background: "var(--sinova-green)",
+                              border: "2px solid #ffffff",
+                              boxShadow: "0 0 0 2px rgba(13, 92, 76, 0.25)",
+                            }}
+                          />
+                          <Link
+                            href={`/orders/${act.orderId}`}
+                            className="sinova-stat-card"
+                            style={{
+                              display: "flex",
+                              alignItems: "center",
+                              justifyContent: "space-between",
+                              padding: "14px 18px",
                               background: "#ffffff",
-                              padding: "3px 8px",
-                              borderRadius: "6px",
-                              border: "1px solid #eef2f0",
+                              border: "1.5px solid #dce4df",
+                              borderRadius: "10px",
+                              textDecoration: "none",
+                              gap: "12px",
+                              flexWrap: "wrap",
+                              transition: "all 0.2s var(--sinova-ease)",
                             }}
                           >
-                            {timeAgo}
-                          </span>
-                        </Link>
+                            <div>
+                              <strong style={{ fontSize: "14px", color: "var(--sinova-ink)", display: "block" }}>
+                                Order {act.order.orderNumber}
+                              </strong>
+                              <span style={{ fontSize: "12.5px", color: "var(--sinova-green)", fontWeight: 700 }}>
+                                {actionTitle}
+                              </span>
+                              {act.note && (
+                                <span style={{ fontSize: "12px", color: "#60706c", display: "block", marginTop: "2px" }}>
+                                  &quot;{act.note}&quot;
+                                </span>
+                              )}
+                            </div>
+
+                            <span
+                              style={{
+                                fontSize: "11px",
+                                fontFamily: "DM Mono, monospace",
+                                color: "#60706c",
+                                background: "var(--sinova-mint)",
+                                padding: "4px 10px",
+                                borderRadius: "8px",
+                                border: "1px solid #cce3d8",
+                                fontWeight: 600,
+                              }}
+                            >
+                              {timeAgo}
+                            </span>
+                          </Link>
+                        </div>
                       );
                     })}
                   </div>

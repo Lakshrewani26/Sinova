@@ -68,28 +68,34 @@ export default async function RequirementsListPage() {
                       <Link
                         key={req.id}
                         href={`/requirements/${req.id}`}
+                        className="sinova-stat-card"
                         style={{
                           display: "flex",
                           alignItems: "center",
                           justifyContent: "space-between",
-                          padding: "20px",
-                          border: "1px solid #dce4df",
-                          borderRadius: "10px",
+                          padding: "20px 24px",
+                          border: "1.5px solid #dce4df",
+                          borderLeft: "4px solid var(--sinova-green)",
+                          borderRadius: "12px",
                           background: "#ffffff",
                           textDecoration: "none",
                           color: "inherit",
-                          transition: "all 0.15s ease",
+                          transition: "all 0.2s var(--sinova-ease)",
+                          flexWrap: "wrap",
+                          gap: "16px",
                         }}
                       >
                         <div>
-                          <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "4px" }}>
-                            <span className="sinova-nav-badge">{req.category.name}</span>
+                          <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "6px" }}>
+                            <span className="sinova-nav-badge" style={{ backgroundColor: "var(--sinova-mint)", color: "var(--sinova-green)", border: "1px solid #b7dcce" }}>
+                              {req.category.name}
+                            </span>
                             <span
                               style={{
                                 fontSize: "11px",
-                                fontWeight: 700,
-                                color: "#0d5c4c",
-                                background: "#eef5f2",
+                                fontWeight: 800,
+                                color: "var(--sinova-green)",
+                                background: "var(--sinova-mint)",
                                 padding: "2px 8px",
                                 borderRadius: "10px",
                               }}
@@ -97,7 +103,7 @@ export default async function RequirementsListPage() {
                               {req.status}
                             </span>
                           </div>
-                          <h3 style={{ fontSize: "17px", fontWeight: 800, margin: "4px 0", color: "#122321" }}>
+                          <h3 style={{ fontSize: "17px", fontWeight: 800, margin: "4px 0", color: "var(--sinova-ink)" }}>
                             {req.title}
                           </h3>
                           <p style={{ margin: 0, fontSize: "13px", color: "#60706c" }}>
@@ -106,26 +112,32 @@ export default async function RequirementsListPage() {
                           </p>
                         </div>
 
-                        {topMatch && (
-                          <div style={{ textAlign: "right", display: "flex", alignItems: "center", gap: "16px" }}>
-                            <div>
-                              <span style={{ fontSize: "11px", color: "#60706c", display: "block" }}>Top Match</span>
-                              <strong style={{ fontSize: "14px", color: "#122321" }}>{topMatch.manufacturer.name.split(" ")[0]}</strong>
+                        <div style={{ display: "flex", alignItems: "center", gap: "20px" }}>
+                          {topMatch && (
+                            <div style={{ textAlign: "right", display: "flex", alignItems: "center", gap: "14px" }}>
+                              <div>
+                                <span style={{ fontSize: "10.5px", fontFamily: "DM Mono, monospace", color: "var(--sinova-green)", display: "block", textTransform: "uppercase", fontWeight: 700 }}>
+                                  TOP MATCH
+                                </span>
+                                <strong style={{ fontSize: "14px", color: "var(--sinova-ink)" }}>{topMatch.manufacturer.name.split(" ")[0]}</strong>
+                              </div>
+                              <div
+                                style={{
+                                  padding: "8px 12px",
+                                  background: "var(--sinova-deep)",
+                                  color: "var(--sinova-lime)",
+                                  borderRadius: "8px",
+                                  fontWeight: 800,
+                                  fontSize: "16px",
+                                  boxShadow: "0 4px 12px rgba(8, 46, 41, 0.2)",
+                                }}
+                              >
+                                {topMatch.sinovaScore}
+                              </div>
                             </div>
-                            <div
-                              style={{
-                                padding: "8px 12px",
-                                background: "#082e29",
-                                color: "#c7ee72",
-                                borderRadius: "8px",
-                                fontWeight: 800,
-                                fontSize: "16px",
-                              }}
-                            >
-                              {topMatch.sinovaScore}
-                            </div>
-                          </div>
-                        )}
+                          )}
+                          <span style={{ color: "var(--sinova-green)", fontSize: "18px", fontWeight: 700 }}>&rarr;</span>
+                        </div>
                       </Link>
                     );
                   })}

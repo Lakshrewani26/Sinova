@@ -257,13 +257,13 @@ export default async function SuppliersPage({ searchParams }: PageProps) {
               {products.map((product) => (
                 <div
                   key={product.id}
-                  className="sinova-panel-card"
+                  className="sinova-panel-card sinova-stat-card"
                   style={{
                     display: "flex",
                     flexDirection: "column",
                     justifyContent: "space-between",
                     padding: "24px",
-                    transition: "all 0.2s ease",
+                    transition: "all 0.2s var(--sinova-ease)",
                   }}
                 >
                   <div>
@@ -344,17 +344,6 @@ export default async function SuppliersPage({ searchParams }: PageProps) {
                     >
                       View Supplier Profile
                     </Link>
-
-                    {product.sourceUrl && (
-                      <a
-                        href={product.sourceUrl}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        style={{ fontSize: "12px", fontWeight: 700, color: "#0d5c4c", textDecoration: "none" }}
-                      >
-                        Catalog Reference &rarr;
-                      </a>
-                    )}
                   </div>
                 </div>
               ))}

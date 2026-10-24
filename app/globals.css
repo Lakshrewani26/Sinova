@@ -1,19 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500;700&family=Manrope:wght@400;500;600;700;800&display=swap');
 
 :root {
-  --sinova-ink: #122321;
-  --sinova-deep: #082e29;
+  /* ==========================================================================
+     SINOVA Green Theme - Core Color System
+     ========================================================================== */
+  --sinova-ink: #0d221d;
+  --sinova-deep: #06231f;
+  --sinova-deep-glass: rgba(6, 35, 31, 0.94);
   --sinova-green: #0d5c4c;
   --sinova-green-hover: #09473b;
+  --sinova-green-active: #07382e;
   --sinova-soft-green: #eef5f2;
+  --sinova-mint-surface: #f4f8f6;
+  --sinova-mint-tint: #d8eae2;
   --sinova-lime: #c7ee72;
-  --sinova-muted: #60706c;
-  --sinova-line: #dce4df;
+  --sinova-lime-hover: #b8e25d;
+  --sinova-lime-glow: rgba(199, 238, 114, 0.35);
+  --sinova-emerald-glow: rgba(13, 92, 76, 0.18);
+  --sinova-muted: #576b66;
+  --sinova-subtle: #798d88;
+  --sinova-line: #dbe5e0;
+  --sinova-line-subtle: #e9f0ec;
   --sinova-paper: #f6f8f7;
   --sinova-white: #ffffff;
-  --sinova-radius: 10px;
-  --sinova-shadow: 0 4px 16px rgba(18, 35, 33, 0.05);
-  --sinova-shadow-hover: 0 8px 28px rgba(18, 35, 33, 0.09);
+
+  /* Typography & Geometry */
+  --sinova-radius-sm: 6px;
+  --sinova-radius: 12px;
+  --sinova-radius-lg: 16px;
+  --sinova-radius-full: 9999px;
+
+  /* Elevated Multi-Layer Depth Shadows */
+  --sinova-shadow-xs: 0 1px 2px rgba(8, 46, 41, 0.04);
+  --sinova-shadow-sm: 0 2px 6px -1px rgba(8, 46, 41, 0.06), 0 1px 3px -1px rgba(8, 46, 41, 0.04);
+  --sinova-shadow: 0 4px 16px -2px rgba(8, 46, 41, 0.06), 0 2px 6px -1px rgba(8, 46, 41, 0.04);
+  --sinova-shadow-hover: 0 12px 30px -4px rgba(8, 46, 41, 0.12), 0 4px 12px -2px rgba(13, 92, 76, 0.08);
+  --sinova-shadow-lg: 0 20px 40px -8px rgba(8, 46, 41, 0.16), 0 6px 16px -4px rgba(13, 92, 76, 0.1);
+  --sinova-inner-highlight: inset 0 1px 0 rgba(255, 255, 255, 0.9);
+
+  /* Animation Easing */
+  --sinova-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --sinova-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ==========================================================================
+   Base & Ambient Background Setup
+   ========================================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
 }
 
 body {
@@ -22,63 +62,100 @@ body {
   font-family: "Manrope", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   color: var(--sinova-ink);
   background-color: #f0f4f2;
+  background-image:
+    radial-gradient(at 15% 10%, rgba(199, 238, 114, 0.06) 0px, transparent 45%),
+    radial-gradient(at 85% 15%, rgba(13, 92, 76, 0.07) 0px, transparent 50%),
+    radial-gradient(at 50% 60%, rgba(220, 235, 228, 0.3) 0px, transparent 70%);
+  background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eef3f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #bed1c7;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--sinova-green);
+}
+
+::selection {
+  background: rgba(199, 238, 114, 0.45);
+  color: var(--sinova-deep);
 }
 
 /* ==========================================================================
-   Header & Navigation Styling
+   Header & Glassmorphic Navigation
    ========================================================================== */
 
 .sinova-header {
-  background-color: var(--sinova-deep);
+  background-color: var(--sinova-deep-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   color: var(--sinova-white);
-  border-bottom: 1px solid #165246;
+  border-bottom: 1px solid rgba(22, 82, 70, 0.6);
+  box-shadow: 0 4px 20px rgba(6, 35, 31, 0.25);
   position: sticky;
   top: 0;
   z-index: 50;
+  transition: all 0.25s var(--sinova-ease);
 }
 
 .sinova-header-container {
-  max-width: 1160px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 0 24px;
-  height: 68px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 24px;
 }
 
 .sinova-brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   text-decoration: none;
   color: var(--sinova-white);
   font-weight: 800;
-  font-size: 19px;
+  font-size: 20px;
   letter-spacing: -0.02em;
+  transition: transform 0.2s var(--sinova-bounce);
 }
 
 .sinova-brand:hover {
   text-decoration: none;
-  opacity: 0.95;
+  transform: translateY(-1px);
 }
 
 .sinova-mark {
-  width: 26px;
-  height: 26px;
+  width: 28px;
+  height: 28px;
   position: relative;
   display: inline-block;
+  flex-shrink: 0;
 }
 
 .sinova-mark i {
   position: absolute;
-  width: 12px;
-  height: 12px;
+  width: 13px;
+  height: 13px;
   border-radius: 3px;
   background-color: var(--sinova-green);
   transform: rotate(45deg);
+  transition: all 0.3s var(--sinova-bounce);
 }
 
 .sinova-mark i:first-child {
@@ -92,54 +169,68 @@ body {
 }
 
 .sinova-mark i:last-child {
-  width: 9px;
-  height: 9px;
-  top: 8px;
-  left: 8px;
+  width: 10px;
+  height: 10px;
+  top: 9px;
+  left: 9px;
   background-color: var(--sinova-lime);
+  box-shadow: 0 0 10px var(--sinova-lime-glow);
+}
+
+.sinova-brand:hover .sinova-mark i:last-child {
+  transform: rotate(135deg) scale(1.15);
 }
 
 .sinova-brand-text {
   font-weight: 800;
   font-size: 19px;
   color: var(--sinova-white);
+  letter-spacing: -0.02em;
 }
 
 .sinova-brand-text em {
   font-style: normal;
   color: var(--sinova-lime);
   margin-left: 4px;
+  text-shadow: 0 0 16px rgba(199, 238, 114, 0.4);
 }
 
 .sinova-desktop-nav {
   display: flex;
   align-items: center;
   gap: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 4px;
+  border-radius: var(--sinova-radius-full);
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .sinova-nav-item {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 8px 14px;
-  border-radius: 6px;
+  padding: 7px 15px;
+  border-radius: var(--sinova-radius-full);
   font-size: 13.5px;
   font-weight: 600;
   text-decoration: none;
-  color: #b0cebe;
-  transition: all 0.15s ease;
+  color: #b5cebe;
+  transition: all 0.2s var(--sinova-ease);
+  position: relative;
 }
 
 .sinova-nav-item:hover {
   color: var(--sinova-white);
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
   text-decoration: none;
+  transform: translateY(-1px);
 }
 
 .sinova-nav-item.active {
   color: var(--sinova-lime);
   font-weight: 700;
-  background: rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.14);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .sinova-nav-badge {
@@ -148,35 +239,49 @@ body {
   font-weight: 700;
   background: rgba(199, 238, 114, 0.2);
   color: var(--sinova-lime);
-  padding: 2px 6px;
-  border-radius: 4px;
+  padding: 2px 7px;
+  border-radius: 6px;
   text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border: 1px solid rgba(199, 238, 114, 0.3);
 }
 
 .sinova-header-actions {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
 }
 
 .sinova-user-info {
   display: flex;
   align-items: center;
   gap: 10px;
+  padding: 4px 10px 4px 4px;
+  border-radius: var(--sinova-radius-full);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  transition: background 0.2s ease;
+}
+
+.sinova-user-info:hover {
+  background: rgba(255, 255, 255, 0.09);
 }
 
 .sinova-avatar {
-  width: 36px;
-  height: 36px;
+  width: 34px;
+  height: 34px;
   border-radius: 50%;
-  background: #0e433b;
+  background: linear-gradient(135deg, #0d5c4c, #073a30);
   color: var(--sinova-lime);
   font-weight: 800;
-  font-size: 13px;
+  font-size: 12.5px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1.5px solid #236357;
+  border: 1.5px solid #2d7a6b;
+  box-shadow: 0 0 10px rgba(199, 238, 114, 0.15);
+  position: relative;
+  flex-shrink: 0;
 }
 
 .sinova-user-meta {
@@ -194,8 +299,12 @@ body {
 
 .sinova-user-email {
   font-size: 11px;
-  color: #8ba89c;
+  color: #92b0a3;
   line-height: 1.2;
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .sinova-logout-form {
@@ -205,20 +314,25 @@ body {
 
 .sinova-logout-btn {
   background: transparent;
-  border: 1px solid #1c5e52;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   color: #c5ded5;
   padding: 7px 14px;
-  border-radius: 6px;
+  border-radius: var(--sinova-radius-sm);
   font-size: 12.5px;
   font-weight: 600;
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: all 0.2s var(--sinova-ease);
 }
 
 .sinova-logout-btn:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.14);
   color: var(--sinova-white);
-  border-color: #2a7a6b;
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.sinova-logout-btn:active {
+  transform: translateY(0);
 }
 
 .sinova-logout-btn.block {
@@ -229,16 +343,17 @@ body {
 
 .sinova-mobile-toggle {
   display: none;
-  background: transparent;
-  border: 0;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   color: var(--sinova-white);
   cursor: pointer;
-  padding: 6px;
-  border-radius: 6px;
+  padding: 8px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
 }
 
 .sinova-mobile-toggle:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .sinova-mobile-menu {
@@ -260,15 +375,17 @@ body {
   .sinova-mobile-menu {
     display: flex;
     flex-direction: column;
-    background-color: var(--sinova-deep);
+    background-color: var(--sinova-deep-glass);
+    backdrop-filter: blur(20px);
     border-top: 1px solid #165246;
-    padding: 16px 24px 20px 24px;
+    padding: 18px 24px 24px 24px;
     position: absolute;
-    top: 68px;
+    top: 70px;
     left: 0;
     right: 0;
     z-index: 40;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
+    animation: sinova-slide-down 0.25s var(--sinova-ease);
   }
 
   .sinova-mobile-nav {
@@ -282,12 +399,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 14px;
-    border-radius: 6px;
-    font-size: 14px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14.5px;
     font-weight: 600;
     color: #b0cebe;
     text-decoration: none;
+    transition: all 0.15s ease;
   }
 
   .sinova-mobile-nav-item:hover,
@@ -309,17 +427,8 @@ body {
   }
 }
 
-/* Page Title Utility */
-.sinova-page-title {
-  font-size: 22px;
-  font-weight: 800;
-  margin: 4px 0 0 0;
-  color: var(--sinova-ink);
-  letter-spacing: -0.01em;
-}
-
 /* ==========================================================================
-   Auth Screens Layout & Components
+   Creative Auth Screen Components
    ========================================================================== */
 
 .auth-page {
@@ -327,30 +436,71 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f0f4f2;
-  padding: 24px;
+  background-color: #051d19;
+  background-image:
+    radial-gradient(at 20% 20%, rgba(13, 92, 76, 0.4) 0px, transparent 55%),
+    radial-gradient(at 80% 80%, rgba(199, 238, 114, 0.12) 0px, transparent 50%),
+    radial-gradient(at 50% 50%, rgba(6, 35, 31, 0.95) 0px, #031411 100%);
+  padding: 32px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Atmospheric Glowing Lights */
+.auth-page::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(199, 238, 114, 0.15) 0%, transparent 70%);
+  top: -150px;
+  left: -100px;
+  pointer-events: none;
+  animation: sinova-drift 14s infinite alternate ease-in-out;
+}
+
+.auth-page::after {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(13, 92, 76, 0.3) 0%, transparent 70%);
+  bottom: -200px;
+  right: -150px;
+  pointer-events: none;
+  animation: sinova-drift 18s infinite alternate-reverse ease-in-out;
 }
 
 .auth-panel {
-  background: #ffffff;
-  border: 1px solid var(--sinova-line);
-  border-radius: 12px;
-  padding: 36px 40px;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(220, 235, 228, 0.8);
+  border-radius: var(--sinova-radius-lg);
+  padding: 40px 42px;
   width: 100%;
-  max-width: 440px;
-  box-shadow: var(--sinova-shadow-hover);
+  max-width: 480px;
+  box-shadow: 0 24px 60px -10px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(199, 238, 114, 0.12);
   text-align: left;
+  position: relative;
+  z-index: 10;
+  backdrop-filter: blur(20px);
 }
 
 .auth-brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 21px;
   color: var(--sinova-ink);
   text-decoration: none;
   margin-bottom: 24px;
+  transition: transform 0.2s ease;
+}
+
+.auth-brand:hover {
+  transform: translateY(-1px);
 }
 
 .auth-brand em {
@@ -359,16 +509,16 @@ body {
 }
 
 .auth-mark {
-  width: 26px;
-  height: 26px;
+  width: 28px;
+  height: 28px;
   position: relative;
   display: inline-block;
 }
 
 .auth-mark i {
   position: absolute;
-  width: 12px;
-  height: 12px;
+  width: 13px;
+  height: 13px;
   border-radius: 3px;
   background-color: var(--sinova-green);
   transform: rotate(45deg);
@@ -385,10 +535,10 @@ body {
 }
 
 .auth-mark i:last-child {
-  width: 9px;
-  height: 9px;
-  top: 8px;
-  left: 8px;
+  width: 10px;
+  height: 10px;
+  top: 9px;
+  left: 9px;
   background-color: var(--sinova-lime);
 }
 
@@ -400,20 +550,34 @@ body {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin: 0 0 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.auth-eyebrow::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--sinova-green);
+  box-shadow: 0 0 6px rgba(13, 92, 76, 0.4);
 }
 
 .auth-panel h1 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 800;
   color: var(--sinova-ink);
   margin: 0 0 6px 0;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
 .auth-subtitle {
-  font-size: 13.5px;
+  font-size: 14px;
   color: var(--sinova-muted);
   margin: 0 0 24px 0;
+  line-height: 1.5;
 }
 
 .auth-form {
@@ -431,86 +595,172 @@ body {
   color: var(--sinova-ink);
 }
 
-.auth-form input {
+.auth-label-text {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sinova-ink);
+}
+
+.auth-form input,
+.auth-form select {
   font-family: inherit;
   font-size: 14px;
-  padding: 11px 14px;
-  border: 1.5px solid #cbd7d2;
-  border-radius: 8px;
+  padding: 12px 14px;
+  border: 1.5px solid #cad7d1;
+  border-radius: var(--sinova-radius-sm);
   background: #ffffff;
   color: var(--sinova-ink);
   box-sizing: border-box;
   width: 100%;
-  transition: all 0.15s ease;
+  transition: all 0.2s var(--sinova-ease);
 }
 
-.auth-form input:focus {
+.auth-form input:hover,
+.auth-form select:hover {
+  border-color: #9cb2a9;
+}
+
+.auth-form input:focus,
+.auth-form select:focus {
   outline: none;
   border-color: var(--sinova-green);
-  box-shadow: 0 0 0 3.5px rgba(13, 92, 76, 0.15);
+  box-shadow: 0 0 0 4px var(--sinova-emerald-glow);
 }
 
-.auth-form label span {
-  font-size: 11.5px;
-  font-weight: 500;
+.auth-error-msg,
+.auth-form label > span.auth-error-msg {
+  font-size: 12px;
+  font-weight: 600;
   color: #c92a2a;
   margin-top: 2px;
 }
 
 .auth-button {
   width: 100%;
-  padding: 12px;
-  font-size: 14px;
-  font-weight: 700;
+  padding: 13px 20px;
+  font-size: 14.5px;
+  font-weight: 800;
   color: var(--sinova-white);
-  background-color: var(--sinova-green);
+  background: linear-gradient(135deg, #0d5c4c 0%, #083b31 100%);
   border: 0;
   border-radius: 8px;
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: all 0.2s var(--sinova-bounce);
   margin-top: 8px;
+  box-shadow: 0 4px 14px rgba(13, 92, 76, 0.35);
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-button::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.15), transparent);
+  opacity: 0;
+  transition: opacity 0.2s ease;
 }
 
 .auth-button:hover {
-  background-color: var(--sinova-deep);
+  background: linear-gradient(135deg, #09473b 0%, #05261f 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(8, 46, 41, 0.4);
+}
+
+.auth-button:hover::after {
+  opacity: 1;
+}
+
+.auth-button:active {
+  transform: translateY(0);
 }
 
 .auth-button:disabled {
   opacity: 0.7;
   cursor: not-allowed;
+  transform: none;
 }
 
 .auth-alert {
   background: #fff5f5;
   border: 1px solid #ffc9c9;
   color: #c92a2a;
-  padding: 10px 14px;
+  padding: 11px 15px;
   border-radius: 8px;
   font-size: 13px;
   font-weight: 600;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  animation: sinova-shake 0.3s ease;
 }
 
 .auth-switch {
   font-size: 13px;
   color: var(--sinova-muted);
   text-align: center;
-  margin: 12px 0 0 0;
+  margin: 14px 0 0 0;
 }
 
 .auth-switch a {
   color: var(--sinova-green);
-  font-weight: 700;
+  font-weight: 800;
   text-decoration: none;
+  transition: color 0.15s ease;
 }
 
 .auth-switch a:hover {
+  color: var(--sinova-green-hover);
   text-decoration: underline;
 }
 
 .auth-switch.small-link {
-  font-size: 12px;
+  font-size: 12.5px;
   margin-top: 6px;
+}
+
+/* Interactive Demo Account Chips */
+.sinova-demo-chips-container {
+  margin-top: 24px;
+  padding: 16px;
+  background: #f4f8f6;
+  border: 1.5px dashed #a4d3c3;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.sinova-demo-chip-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 9px 12px;
+  background: #ffffff;
+  border: 1px solid #cad7d1;
+  border-radius: 6px;
+  font-size: 12px;
+  color: var(--sinova-ink);
+  cursor: pointer;
+  transition: all 0.15s var(--sinova-bounce);
+  text-align: left;
+}
+
+.sinova-demo-chip-btn:hover {
+  border-color: var(--sinova-green);
+  background: #eef5f2;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(13, 92, 76, 0.12);
+}
+
+.sinova-demo-chip-btn.active {
+  border-color: var(--sinova-green);
+  background: #e6f3ed;
+  font-weight: 700;
+  box-shadow: 0 0 0 2px var(--sinova-emerald-glow);
 }
 
 /* ==========================================================================
@@ -521,16 +771,15 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #f0f4f2;
 }
 
 .sinova-dashboard-main {
   flex: 1;
-  padding: 32px 24px;
+  padding: 36px 24px 60px 24px;
 }
 
 .sinova-container {
-  max-width: 1160px;
+  max-width: 1180px;
   margin: 0 auto;
 }
 
@@ -546,9 +795,12 @@ body {
 
 .sinova-breadcrumbs a {
   color: var(--sinova-green);
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   transition: color 0.15s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
 .sinova-breadcrumbs a:hover {
@@ -561,7 +813,7 @@ body {
 
 .sinova-breadcrumb-current {
   color: var(--sinova-ink);
-  font-weight: 700;
+  font-weight: 800;
 }
 
 /* ==========================================================================
@@ -569,56 +821,86 @@ body {
    ========================================================================== */
 
 .sinova-welcome-hero {
-  background: #ffffff;
-  border: 1px solid var(--sinova-line);
+  background: linear-gradient(135deg, #06231f 0%, #0d463b 60%, #082e29 100%);
+  color: #ffffff;
+  border: 1px solid rgba(22, 82, 70, 0.8);
   border-radius: var(--sinova-radius);
-  padding: 28px 32px;
-  box-shadow: var(--sinova-shadow);
+  padding: 32px 36px;
+  box-shadow: 0 16px 36px -8px rgba(6, 35, 31, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 28px;
   flex-wrap: wrap;
   margin-bottom: 28px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sinova-welcome-hero::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(199, 238, 114, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.sinova-hero-content {
+  position: relative;
+  z-index: 2;
 }
 
 .sinova-eyebrow {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
   font-family: "DM Mono", monospace;
   font-size: 11px;
   font-weight: 700;
-  color: var(--sinova-green);
+  color: var(--sinova-lime);
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
 
 .sinova-hero-title {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 800;
-  margin: 0 0 6px 0;
-  color: var(--sinova-ink);
-  letter-spacing: -0.02em;
+  margin: 0 0 8px 0;
+  color: #ffffff;
+  letter-spacing: -0.025em;
+  line-height: 1.15;
 }
 
 .sinova-hero-subtext {
   margin: 0;
-  font-size: 14px;
-  color: var(--sinova-muted);
+  font-size: 14.5px;
+  color: #c7ded3;
+  max-width: 620px;
+  line-height: 1.5;
 }
 
 .sinova-meta-row {
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-top: 10px;
+  margin-top: 14px;
   flex-wrap: wrap;
   font-size: 13px;
-  color: var(--sinova-muted);
+  color: #b0cebe;
 }
 
 .sinova-meta-row .dot {
-  color: #b5c4bf;
+  color: rgba(199, 238, 114, 0.4);
+}
+
+.sinova-hero-actions {
+  position: relative;
+  z-index: 2;
 }
 
 /* ==========================================================================
@@ -651,24 +933,43 @@ body {
   background: var(--sinova-white);
   border: 1px solid var(--sinova-line);
   border-radius: var(--sinova-radius);
-  padding: 20px 22px;
-  box-shadow: var(--sinova-shadow);
+  padding: 22px 24px;
+  box-shadow: var(--sinova-shadow-sm);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: all 0.2s ease;
+  transition: all 0.25s var(--sinova-ease);
+  position: relative;
+  overflow: hidden;
+}
+
+.sinova-stat-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--sinova-green), var(--sinova-lime));
+  opacity: 0;
+  transition: opacity 0.2s ease;
 }
 
 .sinova-stat-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-4px);
+  border-color: #a4d3c3;
   box-shadow: var(--sinova-shadow-hover);
+}
+
+.sinova-stat-card:hover::before {
+  opacity: 1;
 }
 
 .sinova-stat-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .sinova-stat-label {
@@ -678,27 +979,40 @@ body {
 }
 
 .sinova-stat-icon {
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
   background: var(--sinova-soft-green);
   color: var(--sinova-green);
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.2s var(--sinova-bounce);
+  border: 1px solid var(--sinova-mint-tint);
+}
+
+.sinova-stat-card:hover .sinova-stat-icon {
+  background: var(--sinova-green);
+  color: var(--sinova-lime);
+  transform: scale(1.08);
 }
 
 .sinova-stat-value {
-  font-size: 32px;
+  font-size: 34px;
   font-weight: 800;
   color: var(--sinova-ink);
   line-height: 1;
   margin-bottom: 10px;
+  letter-spacing: -0.02em;
 }
 
 .sinova-stat-footer {
-  font-size: 12px;
+  font-size: 12.5px;
   color: var(--sinova-muted);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 /* ==========================================================================
@@ -723,22 +1037,29 @@ body {
   border-radius: var(--sinova-radius);
   box-shadow: var(--sinova-shadow);
   overflow: hidden;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sinova-panel-card:hover {
+  border-color: #cadbd3;
 }
 
 .sinova-panel-header {
-  padding: 20px 28px;
-  border-bottom: 1px solid var(--sinova-line);
+  padding: 22px 28px;
+  border-bottom: 1px solid var(--sinova-line-subtle);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: #fafcfb;
 }
 
 .sinova-panel-header h1,
 .sinova-panel-header h2 {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 800;
   margin: 0;
   color: var(--sinova-ink);
+  letter-spacing: -0.015em;
 }
 
 .sinova-page-subtitle {
@@ -747,96 +1068,24 @@ body {
   color: var(--sinova-muted);
 }
 
-.sinova-panel-body {
-  padding: 28px;
-}
-
-/* ==========================================================================
-   Profile Completion Card Widgets
-   ========================================================================== */
-
-.sinova-profile-progress {
-  margin-bottom: 20px;
-}
-
-.sinova-progress-track {
-  width: 100%;
-  height: 8px;
-  background: #eef2f0;
-  border-radius: 4px;
-  overflow: hidden;
-  margin-bottom: 8px;
-}
-
-.sinova-progress-fill {
-  height: 100%;
-  background: var(--sinova-green);
-  border-radius: 4px;
-}
-
-.sinova-progress-text {
-  font-size: 12px;
-  color: var(--sinova-muted);
-  font-weight: 600;
-}
-
-.sinova-checklist {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+.sinova-header-action-link {
   font-size: 13px;
-}
-
-.sinova-checklist li {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.sinova-checklist li.completed {
-  color: var(--sinova-ink);
-  font-weight: 600;
-}
-
-.sinova-checklist li.pending {
-  color: var(--sinova-muted);
-}
-
-.sinova-check-icon {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+  font-weight: 700;
+  color: var(--sinova-green);
+  text-decoration: none;
+  transition: all 0.15s ease;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  font-size: 11px;
-  font-weight: 700;
+  gap: 4px;
 }
 
-.sinova-checklist li.completed .sinova-check-icon {
-  background: var(--sinova-soft-green);
-  color: var(--sinova-green);
+.sinova-header-action-link:hover {
+  color: var(--sinova-deep);
+  transform: translateX(2px);
 }
 
-.sinova-checklist li.pending .sinova-check-icon {
-  background: #f0f4f2;
-  color: #a0b0ab;
-}
-
-.sinova-outline-btn {
-  width: 100%;
-  padding: 10px 16px;
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--sinova-muted);
-  background: transparent;
-  border: 1.5px solid var(--sinova-line);
-  border-radius: 8px;
-  cursor: not-allowed;
-  opacity: 0.6;
+.sinova-panel-body {
+  padding: 28px;
 }
 
 /* ==========================================================================
@@ -871,14 +1120,22 @@ body {
   font-size: 13px;
   font-weight: 700;
   color: var(--sinova-ink);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
 }
 
-.sinova-required {
+.sinova-required,
+.auth-required {
   color: #c92a2a;
+  display: inline !important;
+  font-size: inherit;
+  font-weight: 700;
+  margin-left: 2px;
 }
 
 .sinova-helper-text {
-  font-size: 11.5px;
+  font-size: 12px;
   color: var(--sinova-muted);
 }
 
@@ -890,9 +1147,9 @@ body {
   color: var(--sinova-ink);
   background-color: var(--sinova-white);
   border: 1.5px solid #cbd7d2;
-  border-radius: 8px;
-  padding: 11px 14px;
-  transition: all 0.15s ease;
+  border-radius: var(--sinova-radius-sm);
+  padding: 12px 14px;
+  transition: all 0.2s var(--sinova-ease);
   box-sizing: border-box;
   width: 100%;
 }
@@ -908,7 +1165,7 @@ body {
 .sinova-textarea:focus {
   outline: none;
   border-color: var(--sinova-green);
-  box-shadow: 0 0 0 3.5px rgba(13, 92, 76, 0.15);
+  box-shadow: 0 0 0 4px var(--sinova-emerald-glow);
 }
 
 .sinova-textarea {
@@ -932,13 +1189,18 @@ body {
 
 .sinova-select-arrow {
   position: absolute;
-  right: 12px;
+  right: 14px;
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
   color: var(--sinova-muted);
   display: flex;
   align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.sinova-select-wrapper:hover .sinova-select-arrow {
+  color: var(--sinova-green);
 }
 
 /* Prefixed Input for Currency */
@@ -959,7 +1221,7 @@ body {
 }
 
 .sinova-input.prefixed {
-  padding-left: 30px;
+  padding-left: 32px;
 }
 
 /* Form Alert Banner */
@@ -974,6 +1236,7 @@ body {
   display: flex;
   align-items: center;
   gap: 10px;
+  animation: sinova-shake 0.3s ease;
 }
 
 /* Form Action Buttons */
@@ -982,9 +1245,9 @@ body {
   align-items: center;
   justify-content: flex-end;
   gap: 14px;
-  margin-top: 12px;
-  padding-top: 20px;
-  border-top: 1px solid var(--sinova-line);
+  margin-top: 14px;
+  padding-top: 22px;
+  border-top: 1px solid var(--sinova-line-subtle);
 }
 
 .sinova-cancel-btn {
@@ -993,18 +1256,25 @@ body {
   justify-content: center;
   padding: 11px 20px;
   font-size: 13.5px;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--sinova-muted);
   background: transparent;
   border: 1.5px solid var(--sinova-line);
   border-radius: 8px;
   text-decoration: none;
-  transition: all 0.15s ease;
+  cursor: pointer;
+  transition: all 0.2s var(--sinova-ease);
 }
 
 .sinova-cancel-btn:hover {
   background: #eef2f0;
   color: var(--sinova-ink);
+  border-color: #b5c7bf;
+  transform: translateY(-1px);
+}
+
+.sinova-cancel-btn:active {
+  transform: translateY(0);
 }
 
 .sinova-submit-btn,
@@ -1015,22 +1285,25 @@ body {
   gap: 8px;
   padding: 12px 24px;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--sinova-white);
-  background-color: var(--sinova-green);
+  background: linear-gradient(135deg, #0d5c4c 0%, #073a30 100%);
   border: 0;
   border-radius: 8px;
   cursor: pointer;
   text-decoration: none;
-  transition: all 0.15s ease;
-  box-shadow: 0 2px 8px rgba(13, 92, 76, 0.25);
+  transition: all 0.2s var(--sinova-bounce);
+  box-shadow: 0 4px 14px rgba(13, 92, 76, 0.3);
+  position: relative;
+  overflow: hidden;
 }
 
 .sinova-submit-btn:hover,
 .sinova-primary-cta:hover {
-  background-color: var(--sinova-deep);
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(8, 46, 41, 0.3);
+  background: linear-gradient(135deg, #08473b 0%, #05261f 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(8, 46, 41, 0.35);
+  text-decoration: none;
 }
 
 .sinova-submit-btn:active,
@@ -1053,15 +1326,46 @@ body {
   font-weight: 700;
   color: var(--sinova-green);
   background-color: var(--sinova-soft-green);
-  border: 1px solid #cce2d9;
+  border: 1px solid #c2ded2;
   border-radius: 8px;
   text-decoration: none;
-  transition: all 0.15s ease;
+  cursor: pointer;
+  transition: all 0.2s var(--sinova-ease);
 }
 
 .sinova-secondary-cta:hover {
   background-color: #dbece5;
   color: var(--sinova-deep);
+  border-color: #a4d3c3;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(13, 92, 76, 0.1);
+  text-decoration: none;
+}
+
+.sinova-secondary-cta:active {
+  transform: translateY(0);
+}
+
+.sinova-outline-btn {
+  width: 100%;
+  padding: 10px 16px;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--sinova-green);
+  background: #ffffff;
+  border: 1.5px solid var(--sinova-line);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sinova-outline-btn:hover {
+  background: var(--sinova-soft-green);
+  border-color: var(--sinova-green);
 }
 
 /* Spinner Animation */
@@ -1080,18 +1384,31 @@ body {
    ========================================================================== */
 
 .sinova-top-recommendation-card {
-  background: linear-gradient(135deg, #082e29 0%, #0c4339 100%);
+  background: linear-gradient(135deg, #06231f 0%, #0d4a3f 70%, #08312a 100%);
   color: var(--sinova-white);
-  border-radius: 14px;
-  padding: 26px 32px;
+  border-radius: var(--sinova-radius-lg);
+  padding: 28px 36px;
   margin-bottom: 32px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  gap: 28px;
   flex-wrap: wrap;
-  box-shadow: 0 10px 30px rgba(8, 46, 41, 0.25);
-  border: 1px solid #165246;
+  box-shadow: 0 16px 40px -8px rgba(6, 35, 31, 0.35);
+  border: 1px solid rgba(199, 238, 114, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+
+.sinova-top-recommendation-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: radial-gradient(circle at 85% 30%, rgba(199, 238, 114, 0.12) 0%, transparent 60%);
+  pointer-events: none;
 }
 
 .sinova-recommendation-tag {
@@ -1101,30 +1418,35 @@ body {
   color: var(--sinova-lime);
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .sinova-recommendation-title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 800;
-  margin: 0 0 4px 0;
-  letter-spacing: -0.01em;
+  margin: 0 0 6px 0;
+  letter-spacing: -0.015em;
+  color: #ffffff;
 }
 
 .sinova-recommendation-sub {
   margin: 0;
-  font-size: 13.5px;
-  color: #b0cebe;
+  font-size: 14px;
+  color: #b8d4c7;
 }
 
 .sinova-recommendation-disclaimer {
-  margin-top: 12px;
-  font-size: 11.5px;
+  margin-top: 14px;
+  font-size: 12px;
   color: #9cbdb1;
-  background: rgba(255, 255, 255, 0.06);
-  padding: 6px 12px;
-  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 7px 14px;
+  border-radius: 8px;
   display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .sinova-recommendation-stats {
@@ -1140,47 +1462,57 @@ body {
 .sinova-recommendation-landed .label {
   font-size: 10.5px;
   font-family: "DM Mono", monospace;
-  color: #b0cebe;
+  color: #a4cebd;
   display: block;
+  letter-spacing: 0.05em;
 }
 
 .sinova-recommendation-landed .amount {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 800;
   color: var(--sinova-lime);
   line-height: 1.1;
+  letter-spacing: -0.02em;
+  text-shadow: 0 0 20px rgba(199, 238, 114, 0.35);
 }
 
 .sinova-recommendation-landed .unit {
-  font-size: 11px;
+  font-size: 11.5px;
   color: #8fb9a7;
   display: block;
 }
 
 .sinova-score-badge-circle {
-  width: 76px;
-  height: 76px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   border: 3px solid var(--sinova-lime);
-  background: #06231f;
+  background: radial-gradient(circle, #0d463b 0%, #06231f 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 0 24px rgba(199, 238, 114, 0.3);
+  transition: transform 0.25s var(--sinova-bounce);
+}
+
+.sinova-score-badge-circle:hover {
+  transform: scale(1.08) rotate(5deg);
 }
 
 .sinova-score-badge-circle .score-num {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 800;
   color: var(--sinova-lime);
   line-height: 1;
 }
 
 .sinova-score-badge-circle .score-lbl {
-  font-size: 8px;
+  font-size: 8.5px;
   font-family: "DM Mono", monospace;
-  color: #8fb9a7;
-  letter-spacing: 0.05em;
+  color: #9cbdb1;
+  letter-spacing: 0.08em;
+  font-weight: 700;
 }
 
 /* ==========================================================================
@@ -1188,18 +1520,19 @@ body {
    ========================================================================== */
 
 .sinova-supplier-card {
-  padding: 24px;
-  transition: all 0.2s ease;
+  padding: 26px;
+  transition: all 0.25s var(--sinova-ease);
 }
 
 .sinova-supplier-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-3px);
   box-shadow: var(--sinova-shadow-hover);
 }
 
 .sinova-supplier-card.rank-one {
   border: 2px solid var(--sinova-green);
-  background: #fafcfb;
+  background: linear-gradient(180deg, #fafdfb 0%, #ffffff 100%);
+  box-shadow: 0 8px 24px -4px rgba(13, 92, 76, 0.12);
 }
 
 .sinova-supplier-card-header {
@@ -1207,7 +1540,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .sinova-supplier-badges {
@@ -1220,16 +1553,19 @@ body {
 .sinova-rank-badge {
   font-family: "DM Mono", monospace;
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 800;
   background: var(--sinova-soft-green);
   color: var(--sinova-green);
   padding: 3px 10px;
-  border-radius: 4px;
+  border-radius: 6px;
+  border: 1px solid rgba(13, 92, 76, 0.2);
 }
 
 .sinova-rank-badge.gold {
   background: var(--sinova-deep);
   color: var(--sinova-lime);
+  border-color: rgba(199, 238, 114, 0.4);
+  box-shadow: 0 2px 8px rgba(6, 35, 31, 0.2);
 }
 
 .sinova-photo-badge {
@@ -1242,24 +1578,31 @@ body {
 }
 
 .sinova-supplier-name {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 800;
   margin: 4px 0 2px 0;
   color: var(--sinova-ink);
+  letter-spacing: -0.01em;
 }
 
 .sinova-supplier-product {
   margin: 0;
-  font-size: 13px;
+  font-size: 13.5px;
   color: var(--sinova-muted);
 }
 
 .sinova-score-box {
   text-align: center;
-  padding: 10px 16px;
+  padding: 10px 18px;
   border-radius: 10px;
   background: var(--sinova-paper);
-  border: 1px solid var(--sinova-line);
+  border: 1.5px solid var(--sinova-line);
+  transition: all 0.2s ease;
+}
+
+.sinova-supplier-card:hover .sinova-score-box {
+  border-color: #a4d3c3;
+  background: #f0f8f4;
 }
 
 .sinova-score-box .lbl {
@@ -1267,10 +1610,12 @@ body {
   font-family: "DM Mono", monospace;
   color: var(--sinova-muted);
   display: block;
+  font-weight: 700;
+  letter-spacing: 0.04em;
 }
 
 .sinova-score-box .val {
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 800;
   color: var(--sinova-green);
   line-height: 1;
@@ -1278,7 +1623,7 @@ body {
 
 .sinova-score-box .sub {
   font-size: 10px;
-  color: #8ba09a;
+  color: #7d968e;
 }
 
 /* 4-Cell Metrics Grid */
@@ -1288,8 +1633,8 @@ body {
   gap: 12px;
   background: #f7faf9;
   border: 1px solid #e1ebe7;
-  border-radius: 8px;
-  padding: 14px 16px;
+  border-radius: 10px;
+  padding: 16px 18px;
   margin-bottom: 16px;
 }
 
@@ -1303,24 +1648,25 @@ body {
   font-size: 11px;
   color: var(--sinova-muted);
   display: block;
-  margin-bottom: 2px;
+  margin-bottom: 3px;
+  font-weight: 600;
 }
 
 .sinova-metric-cell .val {
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 800;
   color: var(--sinova-ink);
 }
 
 .sinova-metric-cell .val.green {
   color: var(--sinova-green);
-  font-size: 16px;
+  font-size: 17px;
 }
 
 .sinova-metric-cell .val.muted {
   color: #7b8e88;
-  font-weight: 500;
-  font-size: 13px;
+  font-weight: 600;
+  font-size: 13.5px;
 }
 
 /* Landed Cost Breakdown Popover Trigger */
@@ -1332,15 +1678,16 @@ body {
   background: transparent;
   border: 0;
   padding: 0;
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 12.5px;
+  font-weight: 700;
   color: var(--sinova-green);
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
   text-decoration: underline;
   text-underline-offset: 3px;
+  transition: color 0.15s ease;
 }
 
 .sinova-landed-info-trigger:hover {
@@ -1348,19 +1695,19 @@ body {
 }
 
 .sinova-landed-popover {
-  margin-top: 10px;
+  margin-top: 12px;
   background: #ffffff;
   border: 1.5px solid var(--sinova-line);
-  border-radius: 10px;
-  padding: 18px 20px;
-  box-shadow: 0 10px 30px rgba(18, 35, 33, 0.12);
-  animation: sinova-fade-in 0.15s ease;
+  border-radius: 12px;
+  padding: 20px 22px;
+  box-shadow: 0 16px 36px rgba(18, 35, 33, 0.14);
+  animation: sinova-fade-in 0.2s var(--sinova-ease);
 }
 
 @keyframes sinova-fade-in {
   from {
     opacity: 0;
-    transform: translateY(-4px);
+    transform: translateY(-6px);
   }
   to {
     opacity: 1;
@@ -1377,7 +1724,7 @@ body {
 
 .sinova-popover-header h4 {
   margin: 0;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 800;
   color: var(--sinova-ink);
 }
@@ -1385,22 +1732,28 @@ body {
 .sinova-popover-close {
   background: transparent;
   border: 0;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
   color: var(--sinova-muted);
+  padding: 4px;
+  transition: color 0.15s ease;
+}
+
+.sinova-popover-close:hover {
+  color: var(--sinova-ink);
 }
 
 .sinova-popover-subtext {
-  margin: 0 0 14px 0;
-  font-size: 12px;
+  margin: 0 0 16px 0;
+  font-size: 12.5px;
   color: var(--sinova-muted);
 }
 
 .sinova-breakdown-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  font-size: 12.5px;
+  gap: 9px;
+  font-size: 13px;
 }
 
 .sinova-breakdown-row {
@@ -1410,33 +1763,34 @@ body {
 }
 
 .sinova-breakdown-row.total {
-  border-top: 1px solid var(--sinova-line);
-  padding-top: 8px;
+  border-top: 1.5px solid var(--sinova-line);
+  padding-top: 10px;
   margin-top: 4px;
   font-weight: 800;
   color: var(--sinova-ink);
-  font-size: 13.5px;
+  font-size: 14px;
 }
 
 .sinova-popover-note {
-  margin-top: 12px;
-  font-size: 11px;
-  color: #72857f;
-  background: #f6f8f7;
-  padding: 8px 12px;
-  border-radius: 6px;
-  line-height: 1.4;
+  margin-top: 14px;
+  font-size: 11.5px;
+  color: #5c7069;
+  background: #f4f8f6;
+  border: 1px solid #dbeae3;
+  padding: 10px 14px;
+  border-radius: 8px;
+  line-height: 1.45;
 }
 
 /* Honest Factor Scores List */
 .sinova-factor-scores {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 8px 16px;
-  font-size: 12px;
-  padding-top: 12px;
+  gap: 9px 18px;
+  font-size: 12.5px;
+  padding-top: 14px;
   border-top: 1px dashed var(--sinova-line);
-  margin-bottom: 14px;
+  margin-bottom: 16px;
 }
 
 @media (max-width: 640px) {
@@ -1453,49 +1807,27 @@ body {
 
 .sinova-factor-row .lbl {
   color: var(--sinova-muted);
+  font-weight: 600;
 }
 
 .sinova-factor-row .val-badge {
   font-size: 11px;
-  font-weight: 700;
-  padding: 2px 8px;
-  border-radius: 4px;
+  font-weight: 800;
+  padding: 3px 9px;
+  border-radius: 6px;
 }
 
 .sinova-factor-row .val-badge.green {
-  background: #e6f4f0;
+  background: #e2f4ed;
   color: var(--sinova-green);
+  border: 1px solid #b7e3d1;
 }
 
 .sinova-factor-row .val-badge.neutral {
   background: #f0f4f2;
   color: #6a7c76;
-  font-weight: 500;
-}
-
-/* Card Footer Source Link */
-.sinova-supplier-footer {
-  border-top: 1px solid #ebf2ef;
-  padding-top: 12px;
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.sinova-supplier-footer .source-lbl {
-  color: var(--sinova-muted);
-}
-
-.sinova-supplier-footer .source-link {
-  color: var(--sinova-green);
-  font-weight: 700;
-  text-decoration: none;
-  word-break: break-all;
-}
-
-.sinova-supplier-footer .source-link:hover {
-  text-decoration: underline;
+  font-weight: 600;
+  border: 1px solid #dce4df;
 }
 
 /* ==========================================================================
@@ -1511,47 +1843,49 @@ body {
 .sinova-comparison-table {
   width: 100%;
   border-collapse: collapse;
-  font-size: 12.5px;
+  font-size: 13px;
   text-align: left;
 }
 
 .sinova-comparison-table th {
-  padding: 12px 14px;
+  padding: 14px 16px;
   font-size: 11px;
   font-family: "DM Mono", monospace;
   color: var(--sinova-muted);
   text-transform: uppercase;
-  background: #f6f8f7;
-  border-bottom: 1px solid var(--sinova-line);
+  background: #f6f9f7;
+  border-bottom: 1.5px solid var(--sinova-line);
   position: sticky;
   top: 0;
   z-index: 2;
+  letter-spacing: 0.04em;
 }
 
 .sinova-comparison-table td {
-  padding: 14px;
+  padding: 15px 16px;
   border-bottom: 1px solid #eef2f0;
   color: var(--sinova-ink);
+  transition: background 0.15s ease;
 }
 
 .sinova-comparison-table tr:hover td {
-  background: #f8faf9;
+  background: #f5f9f7;
 }
 
 .sinova-comparison-table .supplier-name-cell strong {
   display: block;
-  font-size: 13px;
+  font-size: 13.5px;
   color: var(--sinova-ink);
 }
 
 .sinova-comparison-table .supplier-name-cell small {
   color: var(--sinova-muted);
-  font-size: 11px;
+  font-size: 11.5px;
 }
 
 .sinova-comparison-table .green-cost {
   color: var(--sinova-green);
-  font-weight: 700;
+  font-weight: 800;
 }
 
 .sinova-comparison-table .score-cell {
@@ -1560,81 +1894,175 @@ body {
 
 .sinova-comparison-table .score-pill {
   display: inline-block;
-  padding: 4px 10px;
+  padding: 4px 11px;
   background: var(--sinova-deep);
   color: var(--sinova-lime);
   font-weight: 800;
   border-radius: 6px;
   font-size: 13px;
+  border: 1px solid rgba(199, 238, 114, 0.3);
 }
 
-/* Dashboard Footer */
-.sinova-dashboard-footer {
-  padding: 24px 0;
-  background: #ffffff;
-  border-top: 1px solid var(--sinova-line);
-  text-align: center;
-  font-size: 12.5px;
-  color: var(--sinova-muted);
-  margin-top: 48px;
-}
+/* ==========================================================================
+   Empty State & Utility Badges
+   ========================================================================== */
 
-/* Empty State & Utility Badges */
 .sinova-empty-state {
   text-align: center;
-  padding: 48px 24px;
+  padding: 56px 28px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .sinova-empty-icon {
-  width: 60px;
-  height: 60px;
+  width: 68px;
+  height: 68px;
   border-radius: 50%;
-  background: var(--sinova-soft-green);
+  background: linear-gradient(135deg, var(--sinova-soft-green) 0%, #def0e7 100%);
   color: var(--sinova-green);
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 16px auto;
+  margin: 0 auto 18px auto;
+  border: 1.5px solid #a4d3c3;
+  box-shadow: 0 4px 14px rgba(13, 92, 76, 0.1);
+  animation: sinova-float 4s ease-in-out infinite;
 }
 
+.sinova-empty-state h2,
 .sinova-empty-state h3 {
-  font-size: 18px;
+  font-size: 21px;
   font-weight: 800;
-  margin: 0 0 6px 0;
+  margin: 0 0 8px 0;
+  color: var(--sinova-ink);
+  text-align: center;
+  letter-spacing: -0.015em;
 }
 
 .sinova-empty-state p {
-  font-size: 14px;
+  font-size: 14.5px;
   color: var(--sinova-muted);
-  margin: 0 0 20px 0;
+  max-width: 520px;
+  margin: 0 auto 24px auto;
+  line-height: 1.6;
+  text-align: center;
 }
 
 .sinova-badge-neutral {
   background: #eef2f0;
   color: var(--sinova-muted);
-  font-weight: 600;
-  padding: 3px 10px;
+  font-weight: 700;
+  font-size: 11.5px;
+  padding: 4px 11px;
   border-radius: 12px;
+  border: 1px solid #dce4df;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
 
 /* User Summary Rows */
 .sinova-user-summary {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 .sinova-summary-row {
   display: flex;
   justify-content: space-between;
-  font-size: 13px;
+  font-size: 13.5px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #edf3f0;
 }
 
 .sinova-summary-key {
   color: var(--sinova-muted);
+  font-weight: 600;
 }
 
 .sinova-summary-val {
-  font-weight: 700;
+  font-weight: 800;
   color: var(--sinova-ink);
+}
+
+/* Live Pulse Signal */
+.sinova-live-pulse {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--sinova-lime);
+  box-shadow: 0 0 0 0 rgba(199, 238, 114, 0.7);
+  animation: sinova-pulse 2s infinite;
+}
+
+/* ==========================================================================
+   Keyframe Animations
+   ========================================================================== */
+
+@keyframes sinova-float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes sinova-pulse {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(199, 238, 114, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 8px rgba(199, 238, 114, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(199, 238, 114, 0);
+  }
+}
+
+@keyframes sinova-drift {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    transform: translate(40px, 30px) scale(1.1);
+  }
+}
+
+@keyframes sinova-slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes sinova-shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  20%, 60% {
+    transform: translateX(-4px);
+  }
+  40%, 80% {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

@@ -144,7 +144,7 @@ export default async function RfqListPage({ searchParams }: PageProps) {
                 return (
                   <div
                     key={rfq.id}
-                    className="sinova-panel-card"
+                    className="sinova-panel-card sinova-stat-card"
                     style={{
                       padding: "20px 24px",
                       display: "flex",
@@ -152,34 +152,43 @@ export default async function RfqListPage({ searchParams }: PageProps) {
                       justifyContent: "space-between",
                       gap: "20px",
                       flexWrap: "wrap",
+                      borderLeft: rfq.status === "ACCEPTED"
+                        ? "4px solid var(--sinova-lime)"
+                        : quoteCount > 0
+                        ? "4px solid var(--sinova-green)"
+                        : "4px solid #a4d3c3",
+                      transition: "all 0.2s var(--sinova-ease)",
                     }}
                   >
                     <div>
                       <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "6px" }}>
-                        <span className="sinova-nav-badge">{rfq.product.category.name}</span>
+                        <span className="sinova-nav-badge" style={{ backgroundColor: "var(--sinova-mint)", color: "var(--sinova-green)", border: "1px solid #b7dcce" }}>
+                          {rfq.product.category.name}
+                        </span>
                         <span
                           style={{
                             fontSize: "11px",
                             fontWeight: 800,
-                            backgroundColor: rfq.status === "ACCEPTED" ? "#082e29" : "#eef5f2",
-                            color: rfq.status === "ACCEPTED" ? "#c7ee72" : "#0d5c4c",
-                            padding: "2px 8px",
-                            borderRadius: "10px",
+                            backgroundColor: rfq.status === "ACCEPTED" ? "var(--sinova-deep)" : "var(--sinova-mint)",
+                            color: rfq.status === "ACCEPTED" ? "var(--sinova-lime)" : "var(--sinova-green)",
+                            padding: "3px 10px",
+                            borderRadius: "12px",
+                            border: rfq.status === "ACCEPTED" ? "none" : "1px solid #b7dcce",
                           }}
                         >
                           {rfq.status}
                         </span>
-                        <span className="sinova-nav-badge" style={{ backgroundColor: quoteCount > 0 ? "#eef5f2" : "#f6f8f7", color: quoteCount > 0 ? "#0d5c4c" : "#60706c" }}>
+                        <span className="sinova-nav-badge" style={{ backgroundColor: quoteCount > 0 ? "var(--sinova-mint)" : "#f6f8f7", color: quoteCount > 0 ? "var(--sinova-green)" : "#60706c", border: "1px solid #dce4df" }}>
                           {quoteLabel}
                         </span>
                         <span style={{ fontSize: "11.5px", color: "#60706c" }}>Sent on {dateStr}</span>
                       </div>
 
-                      <h3 style={{ fontSize: "17px", fontWeight: 800, margin: "2px 0", color: "#122321" }}>
+                      <h3 style={{ fontSize: "17px", fontWeight: 800, margin: "2px 0", color: "var(--sinova-ink)" }}>
                         {rfq.product.name}
                       </h3>
-                      <p style={{ margin: "2px 0 0 0", fontSize: "13px", color: "#60706c" }}>
-                        Supplier: <strong>{rfq.manufacturer.name}</strong> • Quantity: {rfq.quantity.toLocaleString()} units • Target ₹{rfq.targetUnitPrice}/unit (Total ₹{totalTarget.toLocaleString()})
+                      <p style={{ margin: "4px 0 0 0", fontSize: "13px", color: "#60706c" }}>
+                        Supplier: <strong style={{ color: "var(--sinova-ink)" }}>{rfq.manufacturer.name}</strong> • Quantity: {rfq.quantity.toLocaleString()} units • Target ₹{rfq.targetUnitPrice}/unit (Total <strong style={{ color: "var(--sinova-deep)" }}>₹{totalTarget.toLocaleString()}</strong>)
                       </p>
                     </div>
 
@@ -187,7 +196,7 @@ export default async function RfqListPage({ searchParams }: PageProps) {
                       <Link
                         href={`/rfqs/${rfq.id}`}
                         className="sinova-secondary-cta"
-                        style={{ padding: "9px 16px", fontSize: "13px" }}
+                        style={{ padding: "10px 18px", fontSize: "13px" }}
                       >
                         View RFQ Details &rarr;
                       </Link>

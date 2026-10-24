@@ -149,7 +149,7 @@ export default async function OrdersListPage({ searchParams }: PageProps) {
                 return (
                   <div
                     key={order.id}
-                    className="sinova-panel-card"
+                    className="sinova-panel-card sinova-stat-card"
                     style={{
                       padding: "20px 24px",
                       display: "flex",
@@ -157,19 +157,28 @@ export default async function OrdersListPage({ searchParams }: PageProps) {
                       justifyContent: "space-between",
                       gap: "20px",
                       flexWrap: "wrap",
+                      borderLeft: isCompleted
+                        ? "4px solid var(--sinova-lime)"
+                        : isCancelled
+                        ? "4px solid #c92a2a"
+                        : "4px solid var(--sinova-green)",
+                      transition: "all 0.2s var(--sinova-ease)",
                     }}
                   >
                     <div>
                       <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "6px" }}>
-                        <span className="sinova-nav-badge">{order.product.category.name}</span>
+                        <span className="sinova-nav-badge" style={{ backgroundColor: "var(--sinova-mint)", color: "var(--sinova-green)", border: "1px solid #b7dcce" }}>
+                          {order.product.category.name}
+                        </span>
                         <span
                           style={{
                             fontSize: "11px",
                             fontWeight: 800,
-                            backgroundColor: isCompleted ? "#082e29" : isCancelled ? "#fcf2f2" : "#eef5f2",
-                            color: isCompleted ? "#c7ee72" : isCancelled ? "#c92a2a" : "#0d5c4c",
-                            padding: "2px 8px",
-                            borderRadius: "10px",
+                            backgroundColor: isCompleted ? "var(--sinova-deep)" : isCancelled ? "#fcf2f2" : "var(--sinova-mint)",
+                            color: isCompleted ? "var(--sinova-lime)" : isCancelled ? "#c92a2a" : "var(--sinova-green)",
+                            padding: "3px 10px",
+                            borderRadius: "12px",
+                            border: isCompleted ? "none" : isCancelled ? "1px solid #f5c2c2" : "1px solid #b7dcce",
                           }}
                         >
                           {order.status}
@@ -177,11 +186,11 @@ export default async function OrdersListPage({ searchParams }: PageProps) {
                         <span style={{ fontSize: "11.5px", color: "#60706c" }}>Last Activity: {lastActivityDate}</span>
                       </div>
 
-                      <h3 style={{ fontSize: "17px", fontWeight: 800, margin: "2px 0", color: "#122321" }}>
+                      <h3 style={{ fontSize: "17px", fontWeight: 800, margin: "2px 0", color: "var(--sinova-ink)" }}>
                         {order.orderNumber} • {order.product.name}
                       </h3>
-                      <p style={{ margin: "2px 0 0 0", fontSize: "13px", color: "#60706c" }}>
-                        Supplier: <strong>{order.manufacturer.name}</strong> • {order.quantity.toLocaleString()} units • Total: <strong>₹{order.totalAmount.toLocaleString()}</strong>
+                      <p style={{ margin: "4px 0 0 0", fontSize: "13px", color: "#60706c" }}>
+                        Supplier: <strong style={{ color: "var(--sinova-ink)" }}>{order.manufacturer.name}</strong> • {order.quantity.toLocaleString()} units • Total: <strong style={{ color: "var(--sinova-deep)" }}>₹{order.totalAmount.toLocaleString()}</strong>
                       </p>
                     </div>
 
@@ -189,7 +198,7 @@ export default async function OrdersListPage({ searchParams }: PageProps) {
                       <Link
                         href={`/orders/${order.id}`}
                         className="sinova-secondary-cta"
-                        style={{ padding: "9px 16px", fontSize: "13px" }}
+                        style={{ padding: "10px 18px", fontSize: "13px" }}
                       >
                         View Order &rarr;
                       </Link>

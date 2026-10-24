@@ -7,8 +7,12 @@
     "lint": "eslint app lib eslint.config.mjs next.config.mjs",
     "prisma:generate": "node node_modules/prisma/build/index.js generate --schema prisma/schema.prisma",
     "prisma:migrate": "node node_modules/prisma/build/index.js migrate dev --schema prisma/schema.prisma",
+    "db:seed": "node scripts/ingest_200.js",
     "start": "next start",
     "type-check": "tsc --noEmit"
+  },
+  "prisma": {
+    "seed": "node scripts/ingest_200.js"
   },
   "dependencies": {
     "@prisma/client": "^6.19.3",

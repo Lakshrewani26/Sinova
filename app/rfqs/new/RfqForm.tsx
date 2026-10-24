@@ -35,6 +35,11 @@ export function RfqForm({ manufacturer, product, sourcingRequest }: RfqFormProps
     sourcingRequest?.specifications ||
     `Interested in procuring ${defaultQuantity.toLocaleString()} units of ${product.name}. Please provide your formal quotation and lead time.`;
 
+  const [quantity, setQuantity] = useState<number>(defaultQuantity);
+  const [targetUnitPrice, setTargetUnitPrice] = useState<number>(defaultTargetPrice);
+
+  const totalCalculatedValue = Math.max(0, quantity) * Math.max(0, targetUnitPrice);
+
   async function handleSubmit(formData: FormData) {
     setIsSubmitting(true);
     setErrorMsg(null);
@@ -71,13 +76,14 @@ export function RfqForm({ manufacturer, product, sourcingRequest }: RfqFormProps
       {/* Top Summary Card */}
       <div
         style={{
-          background: "#f6f8f7",
+          background: "linear-gradient(135deg, #f6f8f7 0%, #edf5f1 100%)",
           border: "1.5px solid #cbd7d2",
-          borderRadius: "10px",
+          borderRadius: "12px",
           padding: "20px 24px",
           display: "flex",
           flexDirection: "column",
           gap: "12px",
+          boxShadow: "0 2px 10px rgba(13, 92, 76, 0.05)",
         }}
       >
         <span className="sinova-eyebrow" style={{ margin: 0 }}>
@@ -93,17 +99,17 @@ export function RfqForm({ manufacturer, product, sourcingRequest }: RfqFormProps
               Product: {product.name} ({manufacturer.country})
             </p>
             {sourcingRequest && (
-              <span className="sinova-nav-badge" style={{ marginTop: "8px", display: "inline-block", backgroundColor: "#eef5f2", color: "#0d5c4c" }}>
+              <span className="sinova-nav-badge" style={{ marginTop: "8px", display: "inline-block", backgroundColor: "var(--sinova-mint)", color: "var(--sinova-green)", border: "1px solid #b7dcce" }}>
                 Linked Brief: {sourcingRequest.title}
               </span>
             )}
           </div>
 
-          <div style={{ textAlign: "right", background: "#ffffff", padding: "10px 16px", borderRadius: "8px", border: "1px solid #dce4df" }}>
-            <span style={{ fontSize: "10px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block" }}>
-              CATALOG / INDICATIVE PRICE
+          <div style={{ textAlign: "right", background: "#ffffff", padding: "12px 18px", borderRadius: "10px", border: "1.5px solid #dce4df" }}>
+            <span style={{ fontSize: "10.5px", fontFamily: "DM Mono, monospace", color: "#60706c", display: "block", textTransform: "uppercase" }}>
+              Indicative Price
             </span>
-            <strong style={{ fontSize: "20px", fontWeight: 800, color: "#082e29" }}>
+            <strong style={{ fontSize: "20px", fontWeight: 800, color: "var(--sinova-deep)" }}>
               ₹{product.unitPriceINR.toLocaleString()}
             </strong>
           </div>
@@ -123,7 +129,8 @@ export function RfqForm({ manufacturer, product, sourcingRequest }: RfqFormProps
             required
             min="1"
             className="sinova-input"
-            defaultValue={defaultQuantity}
+            value={quantity || ""}
+            onChange={(e) => setQuantity(Number(e.target.value))}
             placeholder="e.g. 1000"
             disabled={isSubmitting}
           />
@@ -146,7 +153,8 @@ export function RfqForm({ manufacturer, product, sourcingRequest }: RfqFormProps
               step="0.01"
               min="0.01"
               className="sinova-input prefixed"
-              defaultValue={defaultTargetPrice}
+              value={targetUnitPrice || ""}
+              onChange={(e) => setTargetUnitPrice(Number(e.target.value))}
               placeholder="e.g. 250"
               disabled={isSubmitting}
             />
@@ -154,6 +162,57 @@ export function RfqForm({ manufacturer, product, sourcingRequest }: RfqFormProps
           <span className="sinova-helper-text">
             Target unit price per unit in India.
           </span>
+        </div>
+      </div>
+
+      {/* Interactive Live Budget Calculator Widget */}
+      <div
+        style={{
+          background: "linear-gradient(135deg, #eef5f2 0%, #e2efe9 100%)",
+          border: "1.5px solid #a4d3c3",
+          borderRadius: "12px",
+          padding: "16px 20px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          flexWrap: "wrap",
+          gap: "12px",
+          boxShadow: "0 2px 8px rgba(13, 92, 76, 0.04)",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+          <div
+            style={{
+              width: "36px",
+              height: "36px",
+              borderRadius: "10px",
+              background: "var(--sinova-green)",
+              color: "var(--sinova-lime)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: "18px",
+              fontWeight: 800,
+            }}
+          >
+            ₹
+          </div>
+          <div>
+            <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "var(--sinova-green)", fontWeight: 700, textTransform: "uppercase", display: "block" }}>
+              Total Estimated RFQ Value
+            </span>
+            <span style={{ fontSize: "13px", color: "#37524a" }}>
+              {quantity.toLocaleString()} units &times; ₹{targetUnitPrice.toLocaleString()}
+            </span>
+          </div>
+        </div>
+        <div style={{ textAlign: "right" }}>
+          <span style={{ fontSize: "11px", color: "#60706c", display: "block", textTransform: "uppercase" }}>
+            Total Est. Spend
+          </span>
+          <strong style={{ fontSize: "20px", fontWeight: 800, color: "var(--sinova-deep)" }}>
+            ₹{totalCalculatedValue.toLocaleString("en-IN")}
+          </strong>
         </div>
       </div>
 

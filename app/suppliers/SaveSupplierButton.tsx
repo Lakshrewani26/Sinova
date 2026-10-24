@@ -53,22 +53,23 @@ export function SaveSupplierButton({
         style={{
           display: "inline-flex",
           alignItems: "center",
-          gap: "6px",
-          padding: "8px 14px",
-          fontSize: "12.5px",
+          gap: "8px",
+          padding: "8px 16px",
+          fontSize: "13px",
           fontWeight: 700,
           borderRadius: "8px",
           cursor: isPending ? "not-allowed" : "pointer",
-          transition: "all 0.15s ease",
+          transition: "all 0.2s var(--sinova-ease)",
+          boxShadow: isSaved ? "0 2px 8px rgba(13, 92, 76, 0.12)" : "none",
           ...(isSaved
             ? {
-                backgroundColor: "#eef5f2",
-                color: "#0d5c4c",
+                backgroundColor: "var(--sinova-mint)",
+                color: "var(--sinova-green)",
                 border: "1.5px solid #a4d3c3",
               }
             : {
                 backgroundColor: "#ffffff",
-                color: "#60706c",
+                color: "var(--sinova-muted)",
                 border: "1.5px solid #dce4df",
               }),
           ...style,
@@ -78,8 +79,8 @@ export function SaveSupplierButton({
           <>
             <svg
               className="sinova-spinner"
-              width="14"
-              height="14"
+              width="15"
+              height="15"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
@@ -91,12 +92,34 @@ export function SaveSupplierButton({
           </>
         ) : isSaved ? (
           <>
-            <span style={{ color: "#0d5c4c", fontWeight: 800 }}>✓</span>
-            {showText && <span>Saved</span>}
+            <svg
+              width="15"
+              height="15"
+              viewBox="0 0 24 24"
+              fill="currentColor"
+              stroke="currentColor"
+              strokeWidth="1"
+              style={{ color: "var(--sinova-green)", transform: "scale(1.1)", transition: "transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1)" }}
+            >
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+            </svg>
+            {showText && <span>Saved Supplier</span>}
           </>
         ) : (
           <>
-            <span style={{ color: "#8a9e97" }}>☆</span>
+            <svg
+              width="15"
+              height="15"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              style={{ color: "#8a9e97" }}
+            >
+              <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+            </svg>
             {showText && <span>Save Supplier</span>}
           </>
         )}

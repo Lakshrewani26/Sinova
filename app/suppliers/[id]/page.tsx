@@ -221,18 +221,6 @@ export default async function SupplierDetailPage({ params }: PageProps) {
                           New Brief &rarr;
                         </Link>
                       </div>
-
-                      {product.sourceUrl && (
-                        <a
-                          href={product.sourceUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="source-link"
-                          style={{ fontSize: "12.5px", fontWeight: 700, color: "#0d5c4c", textDecoration: "none" }}
-                        >
-                          Catalog Reference &rarr;
-                        </a>
-                      )}
                     </div>
                   </div>
                 ))}

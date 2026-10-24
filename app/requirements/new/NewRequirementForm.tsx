@@ -16,6 +16,11 @@ interface NewRequirementFormProps {
 export function NewRequirementForm({ categories }: NewRequirementFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errorMsg, setErrorMsg] = useState<string | null>(null);
+  const [quantity, setQuantity] = useState<number>(5000);
+  const [targetBudget, setTargetBudget] = useState<number>(250);
+  const [leadTime, setLeadTime] = useState<number>(30);
+
+  const totalEstBudget = Math.max(0, quantity) * Math.max(0, targetBudget);
 
   async function handleSubmit(formData: FormData) {
     setIsSubmitting(true);
@@ -106,7 +111,8 @@ export function NewRequirementForm({ categories }: NewRequirementFormProps) {
             required
             min="1"
             className="sinova-input"
-            defaultValue="5000"
+            value={quantity || ""}
+            onChange={(e) => setQuantity(Number(e.target.value))}
             placeholder="e.g. 5000"
             disabled={isSubmitting}
           />
@@ -128,7 +134,8 @@ export function NewRequirementForm({ categories }: NewRequirementFormProps) {
               required
               step="0.01"
               className="sinova-input prefixed"
-              defaultValue="250"
+              value={targetBudget || ""}
+              onChange={(e) => setTargetBudget(Number(e.target.value))}
               placeholder="e.g. 250"
               disabled={isSubmitting}
             />
@@ -147,10 +154,85 @@ export function NewRequirementForm({ categories }: NewRequirementFormProps) {
             id="maxLeadTimeDays"
             name="maxLeadTimeDays"
             className="sinova-input"
-            defaultValue="30"
+            value={leadTime || ""}
+            onChange={(e) => setLeadTime(Number(e.target.value))}
             placeholder="e.g. 30"
             disabled={isSubmitting}
           />
+          {/* Quick Preset Chips for Lead Time */}
+          <div style={{ display: "flex", gap: "8px", marginTop: "8px", flexWrap: "wrap" }}>
+            {[15, 30, 45, 60].map((days) => (
+              <button
+                key={days}
+                type="button"
+                onClick={() => setLeadTime(days)}
+                style={{
+                  background: leadTime === days ? "var(--sinova-green)" : "var(--sinova-mint)",
+                  color: leadTime === days ? "var(--sinova-lime)" : "var(--sinova-green)",
+                  border: `1px solid ${leadTime === days ? "var(--sinova-green)" : "#b7dcce"}`,
+                  borderRadius: "20px",
+                  padding: "4px 12px",
+                  fontSize: "12px",
+                  fontWeight: 700,
+                  cursor: "pointer",
+                  transition: "all 0.2s var(--sinova-ease)",
+                }}
+              >
+                {days} Days
+              </button>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* Interactive Live Budget Calculator Widget */}
+      <div
+        style={{
+          background: "linear-gradient(135deg, #eef5f2 0%, #e2efe9 100%)",
+          border: "1.5px solid #a4d3c3",
+          borderRadius: "12px",
+          padding: "16px 20px",
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          flexWrap: "wrap",
+          gap: "12px",
+          boxShadow: "0 2px 8px rgba(13, 92, 76, 0.04)",
+        }}
+      >
+        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+          <div
+            style={{
+              width: "36px",
+              height: "36px",
+              borderRadius: "10px",
+              background: "var(--sinova-green)",
+              color: "var(--sinova-lime)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: "18px",
+              fontWeight: 800,
+            }}
+          >
+            ₹
+          </div>
+          <div>
+            <span style={{ fontSize: "11px", fontFamily: "DM Mono, monospace", color: "var(--sinova-green)", fontWeight: 700, textTransform: "uppercase", display: "block" }}>
+              Live Calculated Budget
+            </span>
+            <span style={{ fontSize: "13px", color: "#37524a" }}>
+              {quantity.toLocaleString()} units &times; ₹{targetBudget.toLocaleString()} / unit
+            </span>
+          </div>
+        </div>
+        <div style={{ textAlign: "right" }}>
+          <span style={{ fontSize: "11px", color: "#60706c", display: "block", textTransform: "uppercase" }}>
+            Total Est. Commitment
+          </span>
+          <strong style={{ fontSize: "20px", fontWeight: 800, color: "var(--sinova-deep)" }}>
+            ₹{totalEstBudget.toLocaleString("en-IN")}
+          </strong>
         </div>
       </div>
 

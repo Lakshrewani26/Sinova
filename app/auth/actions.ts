@@ -25,6 +25,8 @@ export async function signupAction(
   const email = normalizeEmail(getFormValue(formData, "email"));
   const password = getFormValue(formData, "password");
   const confirmPassword = getFormValue(formData, "confirmPassword");
+  const role = getFormValue(formData, "role").trim() || "BUYER";
+  const manufacturerId = getFormValue(formData, "manufacturerId").trim() || null;
 
   const fieldErrors: AuthResult["fieldErrors"] = {};
 
@@ -48,16 +50,32 @@ export async function signupAction(
     fieldErrors.confirmPassword = "Passwords do not match.";
   }
 
+  if (role === "SUPPLIER") {
+    if (!manufacturerId) {
+      fieldErrors.manufacturerId = "Please select your associated manufacturer/factory.";
+    } else {
+      const m = await prisma.manufacturer.findUnique({
+        where: { id: manufacturerId },
+      });
+      if (!m) {
+        fieldErrors.manufacturerId = "Invalid manufacturer selected.";
+      }
+    }
+  }
+
   if (Object.keys(fieldErrors).length > 0) {
     return { fieldErrors };
   }
 
+  let user;
   try {
-    const user = await prisma.user.create({
+    user = await prisma.user.create({
       data: {
         name,
         email,
         passwordHash: await hash(password, 12),
+        role: role === "SUPPLIER" ? "SUPPLIER" : "BUYER",
+        manufacturerId: role === "SUPPLIER" ? manufacturerId : null,
       },
     });
 
@@ -78,6 +96,10 @@ export async function signupAction(
     return {
       error: "We could not create your account right now. Please try again.",
     };
+  }
+
+  if (user.role === "SUPPLIER") {
+    redirect("/supplier/rfqs");
   }
 
   redirect("/dashboard");

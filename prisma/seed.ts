@@ -1,3 +1,5 @@
+import fs from "fs";
+import path from "path";
 import { PrismaClient } from "@prisma/client";
 import { hash } from "bcryptjs";
 
@@ -216,9 +218,138 @@ export async function importPdfCatalog() {
   return { categoriesCount, manufacturersCount, productsCount };
 }
 
+interface CandidateRecord {
+  name: string;
+  location: string;
+}
+
+interface ProductRecord200 {
+  product: string;
+  price: number;
+  category: string;
+  candidates: CandidateRecord[];
+}
+
+export async function import200ProductsCatalog() {
+  const jsonPath = path.join(__dirname, "catalog_200.json");
+  if (!fs.existsSync(jsonPath)) {
+    console.log("No catalog_200.json found, skipping 200 products catalog import.");
+    return;
+  }
+
+  const data: ProductRecord200[] = JSON.parse(fs.readFileSync(jsonPath, "utf-8"));
+  console.log(`Starting import of ${data.length} products from 200-products catalog...`);
+
+  // 1. Categories
+  for (const item of data) {
+    let catName = item.category.trim();
+    if (catName.toLowerCase().includes("cor")) {
+      catName = "Home Décor";
+    }
+    const catSlug = slugify(catName);
+    await prisma.category.upsert({
+      where: { slug: catSlug },
+      update: { name: catName },
+      create: { name: catName, slug: catSlug },
+    });
+  }
+
+  // 2. Manufacturers
+  for (const item of data) {
+    for (const cand of item.candidates) {
+      const name = cand.name.trim();
+      const location = cand.location.trim();
+      await prisma.manufacturer.upsert({
+        where: { name },
+        update: {
+          location: location || undefined,
+          country: "China",
+          verified: true,
+        },
+        create: {
+          name,
+          location: location || null,
+          country: "China",
+          verified: true,
+          rating: 4.8,
+          qualityScore: 90,
+          reliabilityScore: 92,
+          leadTimeDays: 14,
+        },
+      });
+    }
+  }
+
+  // 3. Products
+  for (let i = 0; i < data.length; i++) {
+    const item = data[i];
+    const catalogId = `SIN-200-${String(i + 1).padStart(3, "0")}`;
+    let catName = item.category.trim();
+    if (catName.toLowerCase().includes("cor")) {
+      catName = "Home Décor";
+    }
+    const catSlug = slugify(catName);
+    const category = await prisma.category.findUnique({ where: { slug: catSlug } });
+    const primaryCandidate = item.candidates[0];
+    const manufacturer = await prisma.manufacturer.findUnique({ where: { name: primaryCandidate.name.trim() } });
+
+    if (!category || !manufacturer) continue;
+
+    const candidateListStr = item.candidates
+      .map((c, idx) => `${idx + 1}. ${c.name} (${c.location})`)
+      .join(" | ");
+    const specifications = `Planning estimate: ₹${item.price}. Verified candidate manufacturers: ${candidateListStr}`;
+    const sourceUrl = `https://www.alibaba.com/trade/search?SearchText=${encodeURIComponent(item.product)}`;
+
+    await prisma.product.upsert({
+      where: { catalogId },
+      update: {
+        name: item.product,
+        unitPriceINR: Number(item.price),
+        categoryId: category.id,
+        manufacturerId: manufacturer.id,
+        specifications,
+        sourceUrl,
+        photoStatus: "Embedded real photo",
+      },
+      create: {
+        catalogId,
+        name: item.product,
+        unitPriceINR: Number(item.price),
+        categoryId: category.id,
+        manufacturerId: manufacturer.id,
+        specifications,
+        sourceUrl,
+        photoStatus: "Embedded real photo",
+        moq: null,
+        leadTimeDays: null,
+      },
+    });
+  }
+
+  console.log(`Successfully processed 200 products catalog!`);
+}
+
 export async function seedDemoSuppliers() {
   console.log("Seeding Demo Supplier Accounts...");
   const passwordHash = await hash("Password123!", 12);
+
+  // Seed Demo Buyer
+  await prisma.user.upsert({
+    where: { email: "buyer@sinova.demo" },
+    update: {
+      name: "Demo Buyer",
+      passwordHash,
+      role: "BUYER",
+    },
+    create: {
+      email: "buyer@sinova.demo",
+      name: "Demo Buyer",
+      passwordHash,
+      role: "BUYER",
+    },
+  });
+  console.log("- Seeded Demo Buyer: buyer@sinova.demo");
 
   const m1 = await prisma.manufacturer.findUnique({
     where: { name: "Chengdu Haizhuobote Technology Co., Ltd." },
@@ -230,6 +361,10 @@ export async function seedDemoSuppliers() {
 
   const m3 = await prisma.manufacturer.findUnique({
     where: { name: "Sichuan Huadun" },
+  });
+
+  const m4 = await prisma.manufacturer.findUnique({
+    where: { name: "Zhejiang Kitchen Supplier" },
   });
 
   if (m1) {
@@ -291,10 +426,31 @@ export async function seedDemoSuppliers() {
     });
     console.log(`- Seeded Demo Supplier 3: supplier.huadun@sinova.demo -> ${m3.name}`);
   }
+
+  if (m4) {
+    await prisma.user.upsert({
+      where: { email: "supplier.zhejiang@sinova.demo" },
+      update: {
+        name: "Zhejiang Kitchen (Demo Supplier)",
+        passwordHash,
+        role: "SUPPLIER",
+        manufacturerId: m4.id,
+      },
+      create: {
+        email: "supplier.zhejiang@sinova.demo",
+        name: "Zhejiang Kitchen (Demo Supplier)",
+        passwordHash,
+        role: "SUPPLIER",
+        manufacturerId: m4.id,
+      },
+    });
+    console.log(`- Seeded Demo Supplier 4: supplier.zhejiang@sinova.demo -> ${m4.name}`);
+  }
 }
 
 async function main() {
   await importPdfCatalog();
+  await import200ProductsCatalog();
   await seedDemoSuppliers();
 }
 

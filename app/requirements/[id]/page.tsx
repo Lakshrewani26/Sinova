@@ -263,18 +263,6 @@ export default async function RequirementDetailsPage({ params }: PageProps) {
                         >
                           Request Quote &rarr;
                         </Link>
-
-                        {match.product.sourceUrl && (
-                          <a
-                            href={match.product.sourceUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="source-link"
-                            style={{ fontSize: "12px" }}
-                          >
-                            Catalog Reference &rarr;
-                          </a>
-                        )}
                       </div>
                     </div>
                   );

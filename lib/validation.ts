@@ -3,6 +3,8 @@ export type FieldErrors = {
   email?: string;
   password?: string;
   confirmPassword?: string;
+  role?: string;
+  manufacturerId?: string;
 };
 
 export type AuthResult = {

@@ -1,0 +1,5402 @@
+[
+  {
+    "product": "Stainless-steel lunch box, 2-tier",
+    "price": 180,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "JIANGMEN HARVEST KITCHENWARE CO., LTD.",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Hip-home Industrial Co.,Limited",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "POLLYDA MANUFACTURING LTD.",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Guangdong Wina Industrial Co.,LTD",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "JIANGMEN REALWIN HOUSEWARE MANUFACTURE CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Non-stick frying pan, 24 cm",
+    "price": 420,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Hip-home Industrial Co.,Limited",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "POLLYDA MANUFACTURING LTD.",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Guangdong Wina Industrial Co.,LTD",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "JIANGMEN REALWIN HOUSEWARE MANUFACTURE CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "YANGJIANG SABRE ENTERPRISES LTD",
+        "location": "Yangjiang, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Stainless-steel wok, 32 cm",
+    "price": 520,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "POLLYDA MANUFACTURING LTD.",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Guangdong Wina Industrial Co.,LTD",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "JIANGMEN REALWIN HOUSEWARE MANUFACTURE CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "YANGJIANG SABRE ENTERPRISES LTD",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Golden View Economic Trading CO,. Ltd.",
+        "location": "Yangjiang, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Stainless-steel soup ladle",
+    "price": 65,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Guangdong Wina Industrial Co.,LTD",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "JIANGMEN REALWIN HOUSEWARE MANUFACTURE CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "YANGJIANG SABRE ENTERPRISES LTD",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Golden View Economic Trading CO,. Ltd.",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Bihong Kitchenwares Co.,Ltd",
+        "location": "Yangjiang, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Silicone cooking spatula",
+    "price": 45,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "JIANGMEN REALWIN HOUSEWARE MANUFACTURE CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "YANGJIANG SABRE ENTERPRISES LTD",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Golden View Economic Trading CO,. Ltd.",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Bihong Kitchenwares Co.,Ltd",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Ningbo Boling Electrical Appliance Group Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Stainless-steel kitchen tongs",
+    "price": 85,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "YANGJIANG SABRE ENTERPRISES LTD",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Golden View Economic Trading CO,. Ltd.",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Bihong Kitchenwares Co.,Ltd",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Ningbo Boling Electrical Appliance Group Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Vegetable peeler, stainless steel",
+    "price": 35,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Yangjiang Golden View Economic Trading CO,. Ltd.",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Bihong Kitchenwares Co.,Ltd",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Ningbo Boling Electrical Appliance Group Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Kitchen knife, 8-inch chef style",
+    "price": 160,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Yangjiang Bihong Kitchenwares Co.,Ltd",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Ningbo Boling Electrical Appliance Group Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Stainless-steel colander, 24 cm",
+    "price": 145,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Ningbo Boling Electrical Appliance Group Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Measuring cup set, 5 pieces",
+    "price": 110,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "JINAN LOOD INTERNATIONAL TRADING CO.,LTD",
+        "location": "Jinan, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Silicone baking mat",
+    "price": 135,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "JINAN LOOD INTERNATIONAL TRADING CO.,LTD",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Stainless-steel mixing bowl, 2 L",
+    "price": 190,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "JINAN LOOD INTERNATIONAL TRADING CO.,LTD",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Ningbo Fotile Kitchen Ware Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Manual garlic press",
+    "price": 95,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "JINAN LOOD INTERNATIONAL TRADING CO.,LTD",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Ningbo Fotile Kitchen Ware Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Supor Co., Ltd",
+        "location": "Hangzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Rotary cheese grater",
+    "price": 220,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "JINAN LOOD INTERNATIONAL TRADING CO.,LTD",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Ningbo Fotile Kitchen Ware Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Supor Co., Ltd",
+        "location": "Hangzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Xinhui Yihua Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Stainless-steel tea strainer",
+    "price": 40,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Ningbo Fotile Kitchen Ware Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Supor Co., Ltd",
+        "location": "Hangzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Xinhui Yihua Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Jiangmen Xinhui Yilong Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Oil dispenser bottle, 500 ml",
+    "price": 125,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Ningbo Fotile Kitchen Ware Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Supor Co., Ltd",
+        "location": "Hangzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Xinhui Yihua Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Jiangmen Xinhui Yilong Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Jiangmen Xinhui Yatai Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Seasoning shaker set, 4 pieces",
+    "price": 160,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Zhejiang Supor Co., Ltd",
+        "location": "Hangzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Xinhui Yihua Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Jiangmen Xinhui Yilong Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Jiangmen Xinhui Yatai Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Yangjiang Yangdong Hengli Kitchenware Co., Ltd",
+        "location": "Yangjiang, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Reusable silicone food cover set",
+    "price": 90,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Jiangmen Xinhui Yihua Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Jiangmen Xinhui Yilong Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Jiangmen Xinhui Yatai Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Yangjiang Yangdong Hengli Kitchenware Co., Ltd",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Yangdong Hongtai Kitchenware Co., Ltd",
+        "location": "Yangjiang, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Plastic cutting board, 30 cm",
+    "price": 75,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Jiangmen Xinhui Yilong Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Jiangmen Xinhui Yatai Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Yangjiang Yangdong Hengli Kitchenware Co., Ltd",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Yangdong Hongtai Kitchenware Co., Ltd",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Yangdong Yongxin Kitchenware Co., Ltd",
+        "location": "Yangjiang, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Dish drying rack, 2-tier",
+    "price": 650,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Jiangmen Xinhui Yatai Stainless Steel Products Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Yangjiang Yangdong Hengli Kitchenware Co., Ltd",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Yangdong Hongtai Kitchenware Co., Ltd",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Yangdong Yongxin Kitchenware Co., Ltd",
+        "location": "Yangjiang, Guangdong"
+      },
+      {
+        "name": "Yangjiang Jiangcheng Xinda Kitchenware Co., Ltd",
+        "location": "Yangjiang, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Porcelain dinner plate, 10-inch",
+    "price": 120,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "JIAOZUO MEIBO CERAMIC CO.,LTD",
+        "location": "Jiaozuo, Henan"
+      },
+      {
+        "name": "Liling HengXiang Ceramics co.,ltd",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Porcelain cereal bowl, 600 ml",
+    "price": 95,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "Liling HengXiang Ceramics co.,ltd",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic coffee mug, 350 ml",
+    "price": 110,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Porcelain dinner set, 16 pieces",
+    "price": 1450,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic baking dish, 1.5 L",
+    "price": 380,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "GENOL CERAMICS CO.,LTD.",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic seasoning pot with lid",
+    "price": 130,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "GENOL CERAMICS CO.,LTD.",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Huaxing Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Porcelain serving platter, oval",
+    "price": 240,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "GENOL CERAMICS CO.,LTD.",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Huaxing Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Mingyu Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic flower vase, 20 cm",
+    "price": 260,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "GENOL CERAMICS CO.,LTD.",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Huaxing Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Mingyu Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Jinyuan Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Stoneware ramen bowl",
+    "price": 170,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "GENOL CERAMICS CO.,LTD.",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Huaxing Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Mingyu Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Jinyuan Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Hongye Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Porcelain soup spoon",
+    "price": 35,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "Chaozhou Chaoan Huaxing Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Mingyu Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Jinyuan Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Hongye Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Yilong Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic butter dish with lid",
+    "price": 160,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "Chaozhou Chaoan Mingyu Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Jinyuan Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Hongye Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Yilong Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "JIANGSU JINSHENG ENVIRONMENTAL PROTECTION TABLEWARE CO.,LTD",
+        "location": "Jiangsu, China"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic soap dispenser",
+    "price": 190,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Chaozhou Chaoan Jinyuan Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Hongye Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Yilong Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "JIANGSU JINSHENG ENVIRONMENTAL PROTECTION TABLEWARE CO.,LTD",
+        "location": "Jiangsu, China"
+      },
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic toothbrush holder",
+    "price": 115,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Chaozhou Chaoan Hongye Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Chaoan Yilong Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "JIANGSU JINSHENG ENVIRONMENTAL PROTECTION TABLEWARE CO.,LTD",
+        "location": "Jiangsu, China"
+      },
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Porcelain teapot, 800 ml",
+    "price": 420,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "Chaozhou Chaoan Yilong Ceramics Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "JIANGSU JINSHENG ENVIRONMENTAL PROTECTION TABLEWARE CO.,LTD",
+        "location": "Jiangsu, China"
+      },
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic snack plate set, 4 pieces",
+    "price": 280,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "JIANGSU JINSHENG ENVIRONMENTAL PROTECTION TABLEWARE CO.,LTD",
+        "location": "Jiangsu, China"
+      },
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "JIAOZUO MEIBO CERAMIC CO.,LTD",
+        "location": "Jiaozuo, Henan"
+      }
+    ]
+  },
+  {
+    "product": "Porcelain baking ramekin",
+    "price": 70,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "JIAOZUO MEIBO CERAMIC CO.,LTD",
+        "location": "Jiaozuo, Henan"
+      },
+      {
+        "name": "Liling HengXiang Ceramics co.,ltd",
+        "location": "Liling, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic oil bottle, 300 ml",
+    "price": 180,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "JIAOZUO MEIBO CERAMIC CO.,LTD",
+        "location": "Jiaozuo, Henan"
+      },
+      {
+        "name": "Liling HengXiang Ceramics co.,ltd",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic planter pot, 15 cm",
+    "price": 140,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "JIAOZUO MEIBO CERAMIC CO.,LTD",
+        "location": "Jiaozuo, Henan"
+      },
+      {
+        "name": "Liling HengXiang Ceramics co.,ltd",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Porcelain dipping bowl, 4-piece set",
+    "price": 125,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "JIAOZUO MEIBO CERAMIC CO.,LTD",
+        "location": "Jiaozuo, Henan"
+      },
+      {
+        "name": "Liling HengXiang Ceramics co.,ltd",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic table centerpiece bowl",
+    "price": 320,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "Liling HengXiang Ceramics co.,ltd",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Stackable plastic storage box, 10 L",
+    "price": 210,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "Changsha Happy go products developing CO. LTD.",
+        "location": "Changsha, Hunan"
+      },
+      {
+        "name": "Zhejiang Nanlong Industry and Trade Co.,Ltd",
+        "location": "Jinhua, Zhejiang"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "ZIBO UNI-SHINE INDUSTRY CO., LTD.",
+        "location": "Zibo, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Plastic laundry basket, 35 L",
+    "price": 330,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "Zhejiang Nanlong Industry and Trade Co.,Ltd",
+        "location": "Jinhua, Zhejiang"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "ZIBO UNI-SHINE INDUSTRY CO., LTD.",
+        "location": "Zibo, Shandong"
+      },
+      {
+        "name": "JIANGMEN REALWIN HOUSEWARE MANUFACTURE CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Airtight food container, 1 L",
+    "price": 115,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "ZIBO UNI-SHINE INDUSTRY CO., LTD.",
+        "location": "Zibo, Shandong"
+      },
+      {
+        "name": "JIANGMEN REALWIN HOUSEWARE MANUFACTURE CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "JIANGMEN FUTO HOUSEHOLD CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Plastic clothes hanger, 10-piece pack",
+    "price": 95,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "ZIBO UNI-SHINE INDUSTRY CO., LTD.",
+        "location": "Zibo, Shandong"
+      },
+      {
+        "name": "JIANGMEN REALWIN HOUSEWARE MANUFACTURE CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "JIANGMEN FUTO HOUSEHOLD CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "PROSPER HARDWARE & PLASTIC PRODUCTS CO.,LTD(JIANGMEN CITY XINHUI DISTRICT)",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Under-bed storage box, 30 L",
+    "price": 390,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "ZIBO UNI-SHINE INDUSTRY CO., LTD.",
+        "location": "Zibo, Shandong"
+      },
+      {
+        "name": "JIANGMEN REALWIN HOUSEWARE MANUFACTURE CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "JIANGMEN FUTO HOUSEHOLD CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "PROSPER HARDWARE & PLASTIC PRODUCTS CO.,LTD(JIANGMEN CITY XINHUI DISTRICT)",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Drawer organizer tray, 6-compartment",
+    "price": 135,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "JIANGMEN REALWIN HOUSEWARE MANUFACTURE CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "JIANGMEN FUTO HOUSEHOLD CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "PROSPER HARDWARE & PLASTIC PRODUCTS CO.,LTD(JIANGMEN CITY XINHUI DISTRICT)",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Plastic shoe storage box",
+    "price": 160,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "JIANGMEN FUTO HOUSEHOLD CO.,LTD",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "PROSPER HARDWARE & PLASTIC PRODUCTS CO.,LTD(JIANGMEN CITY XINHUI DISTRICT)",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Foldable storage crate, 20 L",
+    "price": 240,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "PROSPER HARDWARE & PLASTIC PRODUCTS CO.,LTD(JIANGMEN CITY XINHUI DISTRICT)",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Rotating spice organizer",
+    "price": 260,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "YANTAI LONGQUAN PLASTIC AND RUBBER PRODUCTS CO.,LTD (storage range)",
+        "location": "Yantai, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Plastic bathroom caddy",
+    "price": 145,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "YANTAI LONGQUAN PLASTIC AND RUBBER PRODUCTS CO.,LTD (storage range)",
+        "location": "Yantai, Shandong"
+      },
+      {
+        "name": "Ningbo Deli Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Stackable refrigerator bin",
+    "price": 125,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "YANTAI LONGQUAN PLASTIC AND RUBBER PRODUCTS CO.,LTD (storage range)",
+        "location": "Yantai, Shandong"
+      },
+      {
+        "name": "Ningbo Deli Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Yinzhou Hengxing Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Pedal waste bin, 12 L",
+    "price": 420,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "YANTAI LONGQUAN PLASTIC AND RUBBER PRODUCTS CO.,LTD (storage range)",
+        "location": "Yantai, Shandong"
+      },
+      {
+        "name": "Ningbo Deli Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Yinzhou Hengxing Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Home-Dollar Imp. & Exp. Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Plastic tissue box cover",
+    "price": 85,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "YANTAI LONGQUAN PLASTIC AND RUBBER PRODUCTS CO.,LTD (storage range)",
+        "location": "Yantai, Shandong"
+      },
+      {
+        "name": "Ningbo Deli Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Yinzhou Hengxing Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Home-Dollar Imp. & Exp. Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Yicheng Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Wall-mounted mop holder",
+    "price": 110,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Ningbo Deli Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Yinzhou Hengxing Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Home-Dollar Imp. & Exp. Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Yicheng Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Lisi Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Plastic cutlery organizer",
+    "price": 145,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Ningbo Yinzhou Hengxing Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Home-Dollar Imp. & Exp. Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Yicheng Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Lisi Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Zhenhai Fubang Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Food storage jar, 1.5 L",
+    "price": 95,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Ningbo Home-Dollar Imp. & Exp. Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Yicheng Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Lisi Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Zhenhai Fubang Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Shuangfeng Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Plastic bucket with handle, 10 L",
+    "price": 150,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "Ningbo Yicheng Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Lisi Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Zhenhai Fubang Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Shuangfeng Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Yongsheng Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Stackable pantry container set, 3 pieces",
+    "price": 280,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Ningbo Lisi Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Ningbo Zhenhai Fubang Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Shuangfeng Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Yongsheng Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan JMT Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Plastic dish drainer tray",
+    "price": 120,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Ningbo Zhenhai Fubang Housewares Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Shuangfeng Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Yongsheng Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan JMT Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Huali Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Multipurpose storage basket, medium",
+    "price": 135,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "Taizhou Huangyan Shuangfeng Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Yongsheng Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan JMT Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Huali Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Yuyao Shunlong Plastic Co., Ltd",
+        "location": "Yuyao, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Microfiber cleaning cloth, 3-piece pack",
+    "price": 75,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Ecovacs Robotics Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      },
+      {
+        "name": "Dalian sanli shodoku co.,Ltd",
+        "location": "Dalian, Liaoning"
+      },
+      {
+        "name": "Suzhou Yihong Cleaning Products Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Nantong Jisheng Cleaning Products Co., Ltd",
+        "location": "Nantong, Jiangsu"
+      }
+    ]
+  },
+  {
+    "product": "Flat mop with refill pad",
+    "price": 320,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      },
+      {
+        "name": "Dalian sanli shodoku co.,Ltd",
+        "location": "Dalian, Liaoning"
+      },
+      {
+        "name": "Suzhou Yihong Cleaning Products Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Nantong Jisheng Cleaning Products Co., Ltd",
+        "location": "Nantong, Jiangsu"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Spin mop bucket set",
+    "price": 980,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Dalian sanli shodoku co.,Ltd",
+        "location": "Dalian, Liaoning"
+      },
+      {
+        "name": "Suzhou Yihong Cleaning Products Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Nantong Jisheng Cleaning Products Co., Ltd",
+        "location": "Nantong, Jiangsu"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Handheld scrub brush",
+    "price": 55,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Suzhou Yihong Cleaning Products Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Nantong Jisheng Cleaning Products Co., Ltd",
+        "location": "Nantong, Jiangsu"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Window squeegee, 25 cm",
+    "price": 95,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Nantong Jisheng Cleaning Products Co., Ltd",
+        "location": "Nantong, Jiangsu"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Lint roller with 2 refills",
+    "price": 120,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Extendable feather duster",
+    "price": 145,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Changsha Happy go products developing CO. LTD.",
+        "location": "Changsha, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Toilet cleaning brush with holder",
+    "price": 135,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Changsha Happy go products developing CO. LTD.",
+        "location": "Changsha, Hunan"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Microfiber mop refill",
+    "price": 85,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Changsha Happy go products developing CO. LTD.",
+        "location": "Changsha, Hunan"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Dishwashing sponge, 6-piece pack",
+    "price": 60,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Changsha Happy go products developing CO. LTD.",
+        "location": "Changsha, Hunan"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHINY HOUSEWARE CO.LTD.",
+        "location": "Shantou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Laundry mesh bag set, 3 pieces",
+    "price": 110,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Changsha Happy go products developing CO. LTD.",
+        "location": "Changsha, Hunan"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHINY HOUSEWARE CO.LTD.",
+        "location": "Shantou, Guangdong"
+      },
+      {
+        "name": "Ecovacs Robotics Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      }
+    ]
+  },
+  {
+    "product": "Clothes drying rack, foldable",
+    "price": 1250,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHINY HOUSEWARE CO.LTD.",
+        "location": "Shantou, Guangdong"
+      },
+      {
+        "name": "Ecovacs Robotics Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      }
+    ]
+  },
+  {
+    "product": "Lint remover brush",
+    "price": 70,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHINY HOUSEWARE CO.LTD.",
+        "location": "Shantou, Guangdong"
+      },
+      {
+        "name": "Ecovacs Robotics Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      },
+      {
+        "name": "Dalian sanli shodoku co.,Ltd",
+        "location": "Dalian, Liaoning"
+      }
+    ]
+  },
+  {
+    "product": "Rubber floor wiper, 40 cm",
+    "price": 160,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "SHINY HOUSEWARE CO.LTD.",
+        "location": "Shantou, Guangdong"
+      },
+      {
+        "name": "Ecovacs Robotics Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      },
+      {
+        "name": "Dalian sanli shodoku co.,Ltd",
+        "location": "Dalian, Liaoning"
+      },
+      {
+        "name": "Suzhou Yihong Cleaning Products Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      }
+    ]
+  },
+  {
+    "product": "Cleaning gloves, reusable pair",
+    "price": 65,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Ecovacs Robotics Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      },
+      {
+        "name": "Dalian sanli shodoku co.,Ltd",
+        "location": "Dalian, Liaoning"
+      },
+      {
+        "name": "Suzhou Yihong Cleaning Products Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Nantong Jisheng Cleaning Products Co., Ltd",
+        "location": "Nantong, Jiangsu"
+      }
+    ]
+  },
+  {
+    "product": "Spray mop bottle, 400 ml",
+    "price": 190,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      },
+      {
+        "name": "Dalian sanli shodoku co.,Ltd",
+        "location": "Dalian, Liaoning"
+      },
+      {
+        "name": "Suzhou Yihong Cleaning Products Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Nantong Jisheng Cleaning Products Co., Ltd",
+        "location": "Nantong, Jiangsu"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Dustpan and brush set",
+    "price": 95,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Dalian sanli shodoku co.,Ltd",
+        "location": "Dalian, Liaoning"
+      },
+      {
+        "name": "Suzhou Yihong Cleaning Products Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Nantong Jisheng Cleaning Products Co., Ltd",
+        "location": "Nantong, Jiangsu"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Reusable pet-hair remover",
+    "price": 105,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Suzhou Yihong Cleaning Products Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Nantong Jisheng Cleaning Products Co., Ltd",
+        "location": "Nantong, Jiangsu"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Scrub sponge with handle",
+    "price": 75,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Nantong Jisheng Cleaning Products Co., Ltd",
+        "location": "Nantong, Jiangsu"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Compact shoe-cleaning brush",
+    "price": 50,
+    "category": "Cleaning",
+    "candidates": [
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Borosilicate glass water bottle, 600 ml",
+    "price": 220,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Haers Vacuum Containers Co., Ltd",
+        "location": "Jinhua, Zhejiang"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Double-wall glass mug, 250 ml",
+    "price": 180,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Haers Vacuum Containers Co., Ltd",
+        "location": "Jinhua, Zhejiang"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Glass food storage jar, 1 L",
+    "price": 145,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Haers Vacuum Containers Co., Ltd",
+        "location": "Jinhua, Zhejiang"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "Anhui Deli Household Glass Co., Ltd",
+        "location": "Bengbu, Anhui"
+      }
+    ]
+  },
+  {
+    "product": "Glass pitcher, 1.5 L",
+    "price": 320,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Zhejiang Haers Vacuum Containers Co., Ltd",
+        "location": "Jinhua, Zhejiang"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "Anhui Deli Household Glass Co., Ltd",
+        "location": "Bengbu, Anhui"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Vacuum-insulated stainless flask, 500 ml",
+    "price": 380,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "Anhui Deli Household Glass Co., Ltd",
+        "location": "Bengbu, Anhui"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Stainless-steel travel tumbler, 450 ml",
+    "price": 290,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "Anhui Deli Household Glass Co., Ltd",
+        "location": "Bengbu, Anhui"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Glass spice jar set, 6 pieces",
+    "price": 340,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Anhui Deli Household Glass Co., Ltd",
+        "location": "Bengbu, Anhui"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Borosilicate measuring jug, 500 ml",
+    "price": 210,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Glass oil dispenser, 300 ml",
+    "price": 160,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Insulated water bottle, 750 ml",
+    "price": 450,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Stemless drinking glass, 350 ml",
+    "price": 75,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Haers Vacuum Containers Co., Ltd",
+        "location": "Jinhua, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Glass tea infuser bottle, 400 ml",
+    "price": 260,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Haers Vacuum Containers Co., Ltd",
+        "location": "Jinhua, Zhejiang"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Stainless steel vacuum mug, 350 ml",
+    "price": 320,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Haers Vacuum Containers Co., Ltd",
+        "location": "Jinhua, Zhejiang"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Glass storage canister with bamboo lid",
+    "price": 190,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Haers Vacuum Containers Co., Ltd",
+        "location": "Jinhua, Zhejiang"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "Anhui Deli Household Glass Co., Ltd",
+        "location": "Bengbu, Anhui"
+      }
+    ]
+  },
+  {
+    "product": "Plastic sports water bottle, 700 ml",
+    "price": 125,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Zhejiang Haers Vacuum Containers Co., Ltd",
+        "location": "Jinhua, Zhejiang"
+      },
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "Anhui Deli Household Glass Co., Ltd",
+        "location": "Bengbu, Anhui"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Vacuum flask with cup lid, 1 L",
+    "price": 520,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Shandong Linuo Technical Glass Co., Ltd",
+        "location": "Jinan, Shandong"
+      },
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "Anhui Deli Household Glass Co., Ltd",
+        "location": "Bengbu, Anhui"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Glass dessert bowl, 4-piece set",
+    "price": 220,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Shandong Huapeng Glass Co., Ltd",
+        "location": "Rizhao, Shandong"
+      },
+      {
+        "name": "Anhui Deli Household Glass Co., Ltd",
+        "location": "Bengbu, Anhui"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Reusable glass straw set, 6 pieces",
+    "price": 95,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "Anhui Deli Household Glass Co., Ltd",
+        "location": "Bengbu, Anhui"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Glass milk bottle, 500 ml",
+    "price": 105,
+    "category": "Drinkware & Glassware",
+    "candidates": [
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Insulated lunch jar, 600 ml",
+    "price": 420,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Zhejiang Shuaishuai Electrical Technology Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Jiangmen Wenqun Plastic Co.,Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "AISHIDA CO.,LTD",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Shandong Sinoglass Co.,Ltd.",
+        "location": "Weifang, Shandong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "LED bulb, 9 W, B22",
+    "price": 55,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "Zhuhai Gree Electric Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      },
+      {
+        "name": "Ningbo Boling Electrical Appliance Group Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Guangdong Xiaosong Technology Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Shenzhen Skyworth-RGB Electronics Co., Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Foshan Electric Lighting Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "LED tube light, 18 W",
+    "price": 160,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "Ningbo Boling Electrical Appliance Group Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Guangdong Xiaosong Technology Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Shenzhen Skyworth-RGB Electronics Co., Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Foshan Electric Lighting Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Aotelong Electric Appliance Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "LED panel light, 18 W",
+    "price": 240,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "Guangdong Xiaosong Technology Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Shenzhen Skyworth-RGB Electronics Co., Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Foshan Electric Lighting Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Aotelong Electric Appliance Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Xinbao Electrical Appliances Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Rechargeable emergency light",
+    "price": 420,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "Shenzhen Skyworth-RGB Electronics Co., Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Foshan Electric Lighting Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Aotelong Electric Appliance Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Xinbao Electrical Appliances Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Kingclean Electric Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      }
+    ]
+  },
+  {
+    "product": "USB desk lamp, dimmable",
+    "price": 350,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "Foshan Electric Lighting Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Aotelong Electric Appliance Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Xinbao Electrical Appliances Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Kingclean Electric Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Zhuhai Kelitong Electrical Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "LED floodlight, 50 W",
+    "price": 680,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "Guangdong Aotelong Electric Appliance Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Xinbao Electrical Appliances Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Kingclean Electric Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Zhuhai Kelitong Electrical Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Rechargeable LED flashlight",
+    "price": 190,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "Guangdong Xinbao Electrical Appliances Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Kingclean Electric Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Zhuhai Kelitong Electrical Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "ZHONGSHAN CAMRY ELECTRONIC CO., LTD",
+        "location": "Zhongshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Electric kettle, 1.5 L",
+    "price": 650,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "Kingclean Electric Co., Ltd",
+        "location": "Suzhou, Jiangsu"
+      },
+      {
+        "name": "Zhuhai Kelitong Electrical Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "ZHONGSHAN CAMRY ELECTRONIC CO., LTD",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "WENZHOU HONGBANG ELECTRONIC CO., LTD",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Portable table fan, USB",
+    "price": 380,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "Zhuhai Kelitong Electrical Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "ZHONGSHAN CAMRY ELECTRONIC CO., LTD",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "WENZHOU HONGBANG ELECTRONIC CO., LTD",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd (switchgear)",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "LED night light with sensor",
+    "price": 135,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "ZHONGSHAN CAMRY ELECTRONIC CO., LTD",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "WENZHOU HONGBANG ELECTRONIC CO., LTD",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd (switchgear)",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Fujian Yanan Technology Co., Ltd",
+        "location": "Fujian, China"
+      }
+    ]
+  },
+  {
+    "product": "Extension board, 4 sockets",
+    "price": 290,
+    "category": "Hardware",
+    "candidates": [
+      {
+        "name": "ZHONGSHAN CAMRY ELECTRONIC CO., LTD",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "WENZHOU HONGBANG ELECTRONIC CO., LTD",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd (switchgear)",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Fujian Yanan Technology Co., Ltd",
+        "location": "Fujian, China"
+      },
+      {
+        "name": "Foshan Nanhai Nengxing Electrical Appliance Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Plug-in mosquito racket",
+    "price": 260,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "WENZHOU HONGBANG ELECTRONIC CO., LTD",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd (switchgear)",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Fujian Yanan Technology Co., Ltd",
+        "location": "Fujian, China"
+      },
+      {
+        "name": "Foshan Nanhai Nengxing Electrical Appliance Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Midea Consumer Electric Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Rechargeable camping lantern",
+    "price": 320,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd (switchgear)",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Fujian Yanan Technology Co., Ltd",
+        "location": "Fujian, China"
+      },
+      {
+        "name": "Foshan Nanhai Nengxing Electrical Appliance Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Midea Consumer Electric Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Ningbo Fotile Kitchen Ware Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "LED strip light, 5 m",
+    "price": 240,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "Fujian Yanan Technology Co., Ltd",
+        "location": "Fujian, China"
+      },
+      {
+        "name": "Foshan Nanhai Nengxing Electrical Appliance Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Midea Consumer Electric Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Ningbo Fotile Kitchen Ware Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Supor Co., Ltd",
+        "location": "Hangzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Touch bedside lamp",
+    "price": 420,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "Foshan Nanhai Nengxing Electrical Appliance Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Midea Consumer Electric Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Ningbo Fotile Kitchen Ware Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Supor Co., Ltd",
+        "location": "Hangzhou, Zhejiang"
+      },
+      {
+        "name": "Guangdong Vanward New Electric Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Mini electric food chopper",
+    "price": 520,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Guangdong Midea Consumer Electric Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Ningbo Fotile Kitchen Ware Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Supor Co., Ltd",
+        "location": "Hangzhou, Zhejiang"
+      },
+      {
+        "name": "Guangdong Vanward New Electric Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Foshan Shunde Midea Washing Appliances Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Digital kitchen scale, 5 kg",
+    "price": 300,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Ningbo Fotile Kitchen Ware Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Supor Co., Ltd",
+        "location": "Hangzhou, Zhejiang"
+      },
+      {
+        "name": "Guangdong Vanward New Electric Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Foshan Shunde Midea Washing Appliances Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Cixi Jiajia Electric Appliance Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Electric coffee grinder",
+    "price": 780,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Zhejiang Supor Co., Ltd",
+        "location": "Hangzhou, Zhejiang"
+      },
+      {
+        "name": "Guangdong Vanward New Electric Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Foshan Shunde Midea Washing Appliances Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Cixi Jiajia Electric Appliance Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      },
+      {
+        "name": "Cixi Yulong Electric Appliance Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Handheld garment steamer",
+    "price": 850,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "Guangdong Vanward New Electric Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Foshan Shunde Midea Washing Appliances Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Cixi Jiajia Electric Appliance Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      },
+      {
+        "name": "Cixi Yulong Electric Appliance Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      },
+      {
+        "name": "Cixi Aistar Electric Appliance Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Portable air purifier",
+    "price": 1850,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "Foshan Shunde Midea Washing Appliances Manufacturing Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Cixi Jiajia Electric Appliance Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      },
+      {
+        "name": "Cixi Yulong Electric Appliance Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      },
+      {
+        "name": "Cixi Aistar Electric Appliance Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      },
+      {
+        "name": "Cixi Bosheng Electric Appliance Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Bathroom corner shelf, 2-tier",
+    "price": 240,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Guangdong Huayi Sanitary Ware Industrial Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Zhejiang Moershu Sanitary Equipment Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Stainless-steel towel bar, 60 cm",
+    "price": 320,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Guangdong Huayi Sanitary Ware Industrial Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Zhejiang Moershu Sanitary Equipment Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Basin faucet, single lever",
+    "price": 780,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Zhejiang Moershu Sanitary Equipment Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Handheld shower head set",
+    "price": 420,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Bathroom soap dispenser, wall mount",
+    "price": 190,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Toothbrush holder, wall mount",
+    "price": 125,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Zhuhai Gree Electric Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Toilet paper holder, stainless steel",
+    "price": 210,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Zhuhai Gree Electric Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Bathroom vanity mirror, 50 cm",
+    "price": 650,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Zhuhai Gree Electric Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Laundry hamper with lid",
+    "price": 380,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Zhuhai Gree Electric Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "CHAOZHOU CHAOAN EVERGREEN ART CRAFT CO.,LTD",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Non-slip bath mat, 45 x 75 cm",
+    "price": 180,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Zhuhai Gree Electric Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      },
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "CHAOZHOU CHAOAN EVERGREEN ART CRAFT CO.,LTD",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "GENOL CERAMICS CO.,LTD.",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Shower caddy, stainless steel",
+    "price": 260,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Chaozhou Haihong Ceramics Making Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "CHAOZHOU CHAOAN EVERGREEN ART CRAFT CO.,LTD",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "GENOL CERAMICS CO.,LTD.",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Floor drain cover, stainless steel",
+    "price": 95,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Chaozhou Yongxuan Household Ceramics Manufacturing Factory Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "CHAOZHOU CHAOAN EVERGREEN ART CRAFT CO.,LTD",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "GENOL CERAMICS CO.,LTD.",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Guangdong Huayi Sanitary Ware Industrial Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Plastic bathroom stool",
+    "price": 220,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "CHAOZHOU CHAOAN EVERGREEN ART CRAFT CO.,LTD",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "GENOL CERAMICS CO.,LTD.",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Guangdong Huayi Sanitary Ware Industrial Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Zhejiang Moershu Sanitary Equipment Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Bathroom tumbler set, 2 pieces",
+    "price": 85,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "GENOL CERAMICS CO.,LTD.",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Guangdong Huayi Sanitary Ware Industrial Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Zhejiang Moershu Sanitary Equipment Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Flexible shower hose, 1.5 m",
+    "price": 130,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Guangdong Huayi Sanitary Ware Industrial Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Zhejiang Moershu Sanitary Equipment Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Over-door towel hook, 5 hooks",
+    "price": 145,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Guangdong Huayi Sanitary Ware Industrial Co., Ltd",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Zhejiang Moershu Sanitary Equipment Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Silicone toilet brush",
+    "price": 160,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Zhejiang Moershu Sanitary Equipment Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Bath storage basket",
+    "price": 115,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Bathroom faucet aerator",
+    "price": 70,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "Guangdong Weijing Daily Hardware Products Co., Ltd (storage range)",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Compact bathroom cabinet",
+    "price": 1450,
+    "category": "Bathroom & Sanitary",
+    "candidates": [
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "SHENZHEN GOLDENSEA HOUSEWARES LIMITED",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Zhuhai Gree Electric Appliances Co., Ltd",
+        "location": "Zhuhai, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Decorative artificial flower arrangement",
+    "price": 220,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "GUANGZHOU CREATIVE HOUSE HOUSEWARE CO., LTD.",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Scented candle in glass jar",
+    "price": 180,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      }
+    ]
+  },
+  {
+    "product": "Wooden serving tray, 35 cm",
+    "price": 320,
+    "category": "Tableware & Ceramics",
+    "candidates": [
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      },
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      }
+    ]
+  },
+  {
+    "product": "Decorative photo frame, 8 x 10 inch",
+    "price": 150,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      },
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      },
+      {
+        "name": "CHAOZHOU CHAOAN EVERGREEN ART CRAFT CO.,LTD",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Artificial potted plant, 25 cm",
+    "price": 190,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      },
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      },
+      {
+        "name": "CHAOZHOU CHAOAN EVERGREEN ART CRAFT CO.,LTD",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "WUXI HOME FURNISHING CO., LTD",
+        "location": "Wuxi, Jiangsu"
+      }
+    ]
+  },
+  {
+    "product": "Woven storage basket, medium",
+    "price": 260,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      },
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      },
+      {
+        "name": "CHAOZHOU CHAOAN EVERGREEN ART CRAFT CO.,LTD",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "WUXI HOME FURNISHING CO., LTD",
+        "location": "Wuxi, Jiangsu"
+      },
+      {
+        "name": "CHANGZHOU BAOSHENG WOOD INDUSTRY CO.,LTD.",
+        "location": "Changzhou, Jiangsu"
+      }
+    ]
+  },
+  {
+    "product": "Decorative cushion cover, 45 x 45 cm",
+    "price": 120,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      },
+      {
+        "name": "CHAOZHOU CHAOAN EVERGREEN ART CRAFT CO.,LTD",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "WUXI HOME FURNISHING CO., LTD",
+        "location": "Wuxi, Jiangsu"
+      },
+      {
+        "name": "CHANGZHOU BAOSHENG WOOD INDUSTRY CO.,LTD.",
+        "location": "Changzhou, Jiangsu"
+      },
+      {
+        "name": "Tianjin Deke Home Co., Ltd",
+        "location": "Tianjin, China"
+      }
+    ]
+  },
+  {
+    "product": "Table runner, 180 cm",
+    "price": 180,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "CHAOZHOU CHAOAN EVERGREEN ART CRAFT CO.,LTD",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "WUXI HOME FURNISHING CO., LTD",
+        "location": "Wuxi, Jiangsu"
+      },
+      {
+        "name": "CHANGZHOU BAOSHENG WOOD INDUSTRY CO.,LTD.",
+        "location": "Changzhou, Jiangsu"
+      },
+      {
+        "name": "Tianjin Deke Home Co., Ltd",
+        "location": "Tianjin, China"
+      },
+      {
+        "name": "CAOXIAN LUYI WOODEN PRODUCTS CO.,LTD",
+        "location": "Heze, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Wall décor panel, 30 x 60 cm",
+    "price": 420,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "WUXI HOME FURNISHING CO., LTD",
+        "location": "Wuxi, Jiangsu"
+      },
+      {
+        "name": "CHANGZHOU BAOSHENG WOOD INDUSTRY CO.,LTD.",
+        "location": "Changzhou, Jiangsu"
+      },
+      {
+        "name": "Tianjin Deke Home Co., Ltd",
+        "location": "Tianjin, China"
+      },
+      {
+        "name": "CAOXIAN LUYI WOODEN PRODUCTS CO.,LTD",
+        "location": "Heze, Shandong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Small wooden shelf, wall mount",
+    "price": 480,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "CHANGZHOU BAOSHENG WOOD INDUSTRY CO.,LTD.",
+        "location": "Changzhou, Jiangsu"
+      },
+      {
+        "name": "Tianjin Deke Home Co., Ltd",
+        "location": "Tianjin, China"
+      },
+      {
+        "name": "CAOXIAN LUYI WOODEN PRODUCTS CO.,LTD",
+        "location": "Heze, Shandong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Dalian Dalunte Fragrance Technology Co., Ltd",
+        "location": "Dalian, Liaoning"
+      }
+    ]
+  },
+  {
+    "product": "Ceramic decorative figurine",
+    "price": 240,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "Tianjin Deke Home Co., Ltd",
+        "location": "Tianjin, China"
+      },
+      {
+        "name": "CAOXIAN LUYI WOODEN PRODUCTS CO.,LTD",
+        "location": "Heze, Shandong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Dalian Dalunte Fragrance Technology Co., Ltd",
+        "location": "Dalian, Liaoning"
+      },
+      {
+        "name": "Guangzhou Jixiangxin Decorative Building Materials Co., Ltd",
+        "location": "Guangzhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "LED decorative string lights, 5 m",
+    "price": 190,
+    "category": "Lighting",
+    "candidates": [
+      {
+        "name": "CAOXIAN LUYI WOODEN PRODUCTS CO.,LTD",
+        "location": "Heze, Shandong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Dalian Dalunte Fragrance Technology Co., Ltd",
+        "location": "Dalian, Liaoning"
+      },
+      {
+        "name": "Guangzhou Jixiangxin Decorative Building Materials Co., Ltd",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "Foshan Shunde Longjiang Furniture Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Curtain tieback pair",
+    "price": 95,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Dalian Dalunte Fragrance Technology Co., Ltd",
+        "location": "Dalian, Liaoning"
+      },
+      {
+        "name": "Guangzhou Jixiangxin Decorative Building Materials Co., Ltd",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "Foshan Shunde Longjiang Furniture Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Cotton kitchen towel, 2-piece set",
+    "price": 110,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Dalian Dalunte Fragrance Technology Co., Ltd",
+        "location": "Dalian, Liaoning"
+      },
+      {
+        "name": "Guangzhou Jixiangxin Decorative Building Materials Co., Ltd",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "Foshan Shunde Longjiang Furniture Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Door mat, 40 x 60 cm",
+    "price": 220,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "Guangzhou Jixiangxin Decorative Building Materials Co., Ltd",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "Foshan Shunde Longjiang Furniture Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Scented reed diffuser, 100 ml",
+    "price": 260,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "Foshan Shunde Longjiang Furniture Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "GUANGZHOU CREATIVE HOUSE HOUSEWARE CO., LTD.",
+        "location": "Guangzhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Wooden planter box, 30 cm",
+    "price": 320,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "HUATAI CERAMICS INDUSTRY LTD, HUNAN,CHINA",
+        "location": "Zhuzhou, Hunan"
+      },
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "GUANGZHOU CREATIVE HOUSE HOUSEWARE CO., LTD.",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Decorative metal wall hook, 3-piece set",
+    "price": 145,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "LILING KALRING HOUSEHOLD CERAMIC CO.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "GUANGZHOU CREATIVE HOUSE HOUSEWARE CO., LTD.",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Faux fur cushion cover",
+    "price": 210,
+    "category": "Home Décor",
+    "candidates": [
+      {
+        "name": "Liling Huarui Ceramic Co.,LTD",
+        "location": "Liling, Hunan"
+      },
+      {
+        "name": "GUANGZHOU CREATIVE HOUSE HOUSEWARE CO., LTD.",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Foldable fabric storage cube",
+    "price": 130,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "GUANGZHOU CREATIVE HOUSE HOUSEWARE CO., LTD.",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "SHENZHEN FOYOHOME COLLECTIONS COMPANY LIMITED.",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Guangdong Sitong Group Co., Ltd",
+        "location": "Chaozhou, Guangdong"
+      },
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Reusable nonwoven shopping bag",
+    "price": 28,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "TIANJIN TEDA JINSHAN EASY PACKING MANUFACTURE CO LTD",
+        "location": "Tianjin, China"
+      },
+      {
+        "name": "Yantai Bagmart Packaging Co.,Ltd",
+        "location": "Yantai, Shandong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "GUANGZHOU HUAFENG ALUMINUM FOIL TECHNOLOGIES CO.,LTD",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Cotton drawstring pouch",
+    "price": 35,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "Yantai Bagmart Packaging Co.,Ltd",
+        "location": "Yantai, Shandong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "GUANGZHOU HUAFENG ALUMINUM FOIL TECHNOLOGIES CO.,LTD",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Kraft paper gift bag, medium",
+    "price": 18,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "GUANGZHOU HUAFENG ALUMINUM FOIL TECHNOLOGIES CO.,LTD",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Aluminium foil roll, 30 cm x 10 m",
+    "price": 65,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "GUANGZHOU HUAFENG ALUMINUM FOIL TECHNOLOGIES CO.,LTD",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Ningbo Shunyi Packaging Products Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Food-grade aluminium takeaway tray",
+    "price": 12,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Ningbo Shunyi Packaging Products Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Ouhai Huaxing Packaging Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Zip-lock storage bag, 20-piece pack",
+    "price": 45,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Ningbo Shunyi Packaging Products Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Ouhai Huaxing Packaging Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Changsha Happy go products developing CO. LTD.",
+        "location": "Changsha, Hunan"
+      }
+    ]
+  },
+  {
+    "product": "Reusable vacuum storage bag, large",
+    "price": 95,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Ningbo Shunyi Packaging Products Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Ouhai Huaxing Packaging Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Changsha Happy go products developing CO. LTD.",
+        "location": "Changsha, Hunan"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Bubble mailer, medium",
+    "price": 14,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "Ningbo Shunyi Packaging Products Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Ouhai Huaxing Packaging Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Changsha Happy go products developing CO. LTD.",
+        "location": "Changsha, Hunan"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Woven polypropylene shopping sack",
+    "price": 32,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "Wenzhou Ouhai Huaxing Packaging Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Changsha Happy go products developing CO. LTD.",
+        "location": "Changsha, Hunan"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "ZHANGZHOU DONGTAI RAIN GEAR INDUSTRIAL CO.,LTD",
+        "location": "Zhangzhou, Fujian"
+      }
+    ]
+  },
+  {
+    "product": "Cotton tote bag, 12 oz",
+    "price": 95,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "Changsha Happy go products developing CO. LTD.",
+        "location": "Changsha, Hunan"
+      },
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "ZHANGZHOU DONGTAI RAIN GEAR INDUSTRIAL CO.,LTD",
+        "location": "Zhangzhou, Fujian"
+      },
+      {
+        "name": "CHANGZHOU BAOSHENG WOOD INDUSTRY CO.,LTD.",
+        "location": "Changzhou, Jiangsu"
+      }
+    ]
+  },
+  {
+    "product": "Garment cover bag, 100 cm",
+    "price": 110,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "GUANGDONG HAIXING PLASTIC & RUBBER CO.,LTD.",
+        "location": "Jieyang, Guangdong"
+      },
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "ZHANGZHOU DONGTAI RAIN GEAR INDUSTRIAL CO.,LTD",
+        "location": "Zhangzhou, Fujian"
+      },
+      {
+        "name": "CHANGZHOU BAOSHENG WOOD INDUSTRY CO.,LTD.",
+        "location": "Changzhou, Jiangsu"
+      },
+      {
+        "name": "CAOXIAN LUYI WOODEN PRODUCTS CO.,LTD",
+        "location": "Heze, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Lunch bag, insulated",
+    "price": 160,
+    "category": "Kitchen",
+    "candidates": [
+      {
+        "name": "Guangdong Dk houseware Co., Limited",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "ZHANGZHOU DONGTAI RAIN GEAR INDUSTRIAL CO.,LTD",
+        "location": "Zhangzhou, Fujian"
+      },
+      {
+        "name": "CHANGZHOU BAOSHENG WOOD INDUSTRY CO.,LTD.",
+        "location": "Changzhou, Jiangsu"
+      },
+      {
+        "name": "CAOXIAN LUYI WOODEN PRODUCTS CO.,LTD",
+        "location": "Heze, Shandong"
+      },
+      {
+        "name": "TIANJIN TEDA JINSHAN EASY PACKING MANUFACTURE CO LTD",
+        "location": "Tianjin, China"
+      }
+    ]
+  },
+  {
+    "product": "Cosmetic travel pouch",
+    "price": 120,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "ZHANGZHOU DONGTAI RAIN GEAR INDUSTRIAL CO.,LTD",
+        "location": "Zhangzhou, Fujian"
+      },
+      {
+        "name": "CHANGZHOU BAOSHENG WOOD INDUSTRY CO.,LTD.",
+        "location": "Changzhou, Jiangsu"
+      },
+      {
+        "name": "CAOXIAN LUYI WOODEN PRODUCTS CO.,LTD",
+        "location": "Heze, Shandong"
+      },
+      {
+        "name": "TIANJIN TEDA JINSHAN EASY PACKING MANUFACTURE CO LTD",
+        "location": "Tianjin, China"
+      },
+      {
+        "name": "Yantai Bagmart Packaging Co.,Ltd",
+        "location": "Yantai, Shandong"
+      }
+    ]
+  },
+  {
+    "product": "Plastic packaging tape, 48 mm",
+    "price": 35,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "CHANGZHOU BAOSHENG WOOD INDUSTRY CO.,LTD.",
+        "location": "Changzhou, Jiangsu"
+      },
+      {
+        "name": "CAOXIAN LUYI WOODEN PRODUCTS CO.,LTD",
+        "location": "Heze, Shandong"
+      },
+      {
+        "name": "TIANJIN TEDA JINSHAN EASY PACKING MANUFACTURE CO LTD",
+        "location": "Tianjin, China"
+      },
+      {
+        "name": "Yantai Bagmart Packaging Co.,Ltd",
+        "location": "Yantai, Shandong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Kraft paper food box",
+    "price": 9,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "CAOXIAN LUYI WOODEN PRODUCTS CO.,LTD",
+        "location": "Heze, Shandong"
+      },
+      {
+        "name": "TIANJIN TEDA JINSHAN EASY PACKING MANUFACTURE CO LTD",
+        "location": "Tianjin, China"
+      },
+      {
+        "name": "Yantai Bagmart Packaging Co.,Ltd",
+        "location": "Yantai, Shandong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "GUANGZHOU HUAFENG ALUMINUM FOIL TECHNOLOGIES CO.,LTD",
+        "location": "Guangzhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Reusable produce mesh bag, 5-piece set",
+    "price": 75,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "TIANJIN TEDA JINSHAN EASY PACKING MANUFACTURE CO LTD",
+        "location": "Tianjin, China"
+      },
+      {
+        "name": "Yantai Bagmart Packaging Co.,Ltd",
+        "location": "Yantai, Shandong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "GUANGZHOU HUAFENG ALUMINUM FOIL TECHNOLOGIES CO.,LTD",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Nonwoven drawstring laundry bag",
+    "price": 80,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "Yantai Bagmart Packaging Co.,Ltd",
+        "location": "Yantai, Shandong"
+      },
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "GUANGZHOU HUAFENG ALUMINUM FOIL TECHNOLOGIES CO.,LTD",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Gift box with lid, medium",
+    "price": 65,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "CANGNAN COUNTY HENGLI COTTON TEXTILE LIMITED COMPANY",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "GUANGZHOU HUAFENG ALUMINUM FOIL TECHNOLOGIES CO.,LTD",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Vacuum-seal food bag roll",
+    "price": 120,
+    "category": "Packaging",
+    "candidates": [
+      {
+        "name": "GUANGZHOU HUAFENG ALUMINUM FOIL TECHNOLOGIES CO.,LTD",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Ningbo Shunyi Packaging Products Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Reusable zippered storage pouch",
+    "price": 55,
+    "category": "Storage",
+    "candidates": [
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Cangnan Yulong Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Lianfa Nonwoven Products Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "Ningbo Shunyi Packaging Products Co., Ltd",
+        "location": "Ningbo, Zhejiang"
+      },
+      {
+        "name": "Wenzhou Ouhai Huaxing Packaging Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Folding camping chair",
+    "price": 780,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "PROSPER HARDWARE & PLASTIC PRODUCTS CO.,LTD(JIANGMEN CITY XINHUI DISTRICT)",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      },
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      }
+    ]
+  },
+  {
+    "product": "Outdoor umbrella, 2 m",
+    "price": 950,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      },
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      },
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      }
+    ]
+  },
+  {
+    "product": "Garden hand trowel",
+    "price": 75,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      },
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      },
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Plastic flower pot, 20 cm",
+    "price": 95,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      },
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      },
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "ZHANGZHOU DONGTAI RAIN GEAR INDUSTRIAL CO.,LTD",
+        "location": "Zhangzhou, Fujian"
+      }
+    ]
+  },
+  {
+    "product": "Hanging planter basket",
+    "price": 160,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      },
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "ZHANGZHOU DONGTAI RAIN GEAR INDUSTRIAL CO.,LTD",
+        "location": "Zhangzhou, Fujian"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Artificial grass sample mat, 40 x 60 cm",
+    "price": 240,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      },
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "ZHANGZHOU DONGTAI RAIN GEAR INDUSTRIAL CO.,LTD",
+        "location": "Zhangzhou, Fujian"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Fujian Yanan Technology Co., Ltd",
+        "location": "Fujian, China"
+      }
+    ]
+  },
+  {
+    "product": "Garden pruning shears",
+    "price": 180,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "Wenzhou Huajia Electrical Appliances Co., Ltd",
+        "location": "Wenzhou, Zhejiang"
+      },
+      {
+        "name": "ZHANGZHOU DONGTAI RAIN GEAR INDUSTRIAL CO.,LTD",
+        "location": "Zhangzhou, Fujian"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Fujian Yanan Technology Co., Ltd",
+        "location": "Fujian, China"
+      },
+      {
+        "name": "Guangzhou Jixiangxin Decorative Building Materials Co., Ltd",
+        "location": "Guangzhou, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Watering can, 5 L",
+    "price": 220,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "ZHANGZHOU DONGTAI RAIN GEAR INDUSTRIAL CO.,LTD",
+        "location": "Zhangzhou, Fujian"
+      },
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Fujian Yanan Technology Co., Ltd",
+        "location": "Fujian, China"
+      },
+      {
+        "name": "Guangzhou Jixiangxin Decorative Building Materials Co., Ltd",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "Taizhou Huangyan Shuangfeng Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "LED solar garden light",
+    "price": 260,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "OK Umbrella (Shenzhen) Co.,Ltd",
+        "location": "Shenzhen, Guangdong"
+      },
+      {
+        "name": "Fujian Yanan Technology Co., Ltd",
+        "location": "Fujian, China"
+      },
+      {
+        "name": "Guangzhou Jixiangxin Decorative Building Materials Co., Ltd",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "Taizhou Huangyan Shuangfeng Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Yongsheng Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Compact tool set, 12 pieces",
+    "price": 420,
+    "category": "Hardware",
+    "candidates": [
+      {
+        "name": "Fujian Yanan Technology Co., Ltd",
+        "location": "Fujian, China"
+      },
+      {
+        "name": "Guangzhou Jixiangxin Decorative Building Materials Co., Ltd",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "Taizhou Huangyan Shuangfeng Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Yongsheng Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan JMT Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Adjustable wrench, 8-inch",
+    "price": 190,
+    "category": "Hardware",
+    "candidates": [
+      {
+        "name": "Guangzhou Jixiangxin Decorative Building Materials Co., Ltd",
+        "location": "Guangzhou, Guangdong"
+      },
+      {
+        "name": "Taizhou Huangyan Shuangfeng Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Yongsheng Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan JMT Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Foshan Shunde Longjiang Furniture Co., Ltd",
+        "location": "Foshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Screwdriver set, 6 pieces",
+    "price": 160,
+    "category": "Hardware",
+    "candidates": [
+      {
+        "name": "Taizhou Huangyan Shuangfeng Plastic Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan Yongsheng Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan JMT Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Foshan Shunde Longjiang Furniture Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Ningbo Cixi Xinguang Lighting Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Door stopper, rubber",
+    "price": 35,
+    "category": "Hardware",
+    "candidates": [
+      {
+        "name": "Taizhou Huangyan Yongsheng Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Taizhou Huangyan JMT Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Foshan Shunde Longjiang Furniture Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Ningbo Cixi Xinguang Lighting Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      },
+      {
+        "name": "Zhongshan Guzhen Huayi Lighting Co., Ltd",
+        "location": "Zhongshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Adhesive wall hook, 6-piece pack",
+    "price": 55,
+    "category": "Hardware",
+    "candidates": [
+      {
+        "name": "Taizhou Huangyan JMT Mould Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Foshan Shunde Longjiang Furniture Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Ningbo Cixi Xinguang Lighting Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      },
+      {
+        "name": "Zhongshan Guzhen Huayi Lighting Co., Ltd",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "Zhongshan Guzhen Yaming Lighting Co., Ltd",
+        "location": "Zhongshan, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Cable ties, 100-piece pack",
+    "price": 45,
+    "category": "Hardware",
+    "candidates": [
+      {
+        "name": "Foshan Shunde Longjiang Furniture Co., Ltd",
+        "location": "Foshan, Guangdong"
+      },
+      {
+        "name": "Ningbo Cixi Xinguang Lighting Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      },
+      {
+        "name": "Zhongshan Guzhen Huayi Lighting Co., Ltd",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "Zhongshan Guzhen Yaming Lighting Co., Ltd",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "PROSPER HARDWARE & PLASTIC PRODUCTS CO.,LTD(JIANGMEN CITY XINHUI DISTRICT)",
+        "location": "Jiangmen, Guangdong"
+      }
+    ]
+  },
+  {
+    "product": "Small plastic tool box",
+    "price": 220,
+    "category": "Hardware",
+    "candidates": [
+      {
+        "name": "Ningbo Cixi Xinguang Lighting Co., Ltd",
+        "location": "Cixi, Zhejiang"
+      },
+      {
+        "name": "Zhongshan Guzhen Huayi Lighting Co., Ltd",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "Zhongshan Guzhen Yaming Lighting Co., Ltd",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "PROSPER HARDWARE & PLASTIC PRODUCTS CO.,LTD(JIANGMEN CITY XINHUI DISTRICT)",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Rain umbrella, automatic open",
+    "price": 280,
+    "category": "Household",
+    "candidates": [
+      {
+        "name": "Zhongshan Guzhen Huayi Lighting Co., Ltd",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "Zhongshan Guzhen Yaming Lighting Co., Ltd",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "PROSPER HARDWARE & PLASTIC PRODUCTS CO.,LTD(JIANGMEN CITY XINHUI DISTRICT)",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      }
+    ]
+  },
+  {
+    "product": "Outdoor storage box, 50 L",
+    "price": 950,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "Zhongshan Guzhen Yaming Lighting Co., Ltd",
+        "location": "Zhongshan, Guangdong"
+      },
+      {
+        "name": "PROSPER HARDWARE & PLASTIC PRODUCTS CO.,LTD(JIANGMEN CITY XINHUI DISTRICT)",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      }
+    ]
+  },
+  {
+    "product": "Folding picnic table",
+    "price": 1250,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "PROSPER HARDWARE & PLASTIC PRODUCTS CO.,LTD(JIANGMEN CITY XINHUI DISTRICT)",
+        "location": "Jiangmen, Guangdong"
+      },
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      },
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      }
+    ]
+  },
+  {
+    "product": "Plant support clips, 20-piece pack",
+    "price": 40,
+    "category": "Garden & Outdoor",
+    "candidates": [
+      {
+        "name": "Zhejiang Topsun Industrial Group Co., Ltd",
+        "location": "Huzhou, Zhejiang"
+      },
+      {
+        "name": "Zhejiang Zhengte Co., Ltd",
+        "location": "Taizhou, Zhejiang"
+      },
+      {
+        "name": "Henan Lvzhou Horticulture Products Co., Ltd",
+        "location": "Xuchang, Henan"
+      },
+      {
+        "name": "Jiangsu Gongchuang Artificial Lawn Co., Ltd",
+        "location": "Huai'an, Jiangsu"
+      },
+      {
+        "name": "Shanghai Meirui Industrial Co., Ltd",
+        "location": "Shanghai"
+      }
+    ]
+  }
+]

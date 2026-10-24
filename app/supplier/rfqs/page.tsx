@@ -146,7 +146,7 @@ export default async function SupplierRfqInboxPage({ searchParams }: PageProps) 
                 return (
                   <div
                     key={rfq.id}
-                    className="sinova-panel-card"
+                    className="sinova-panel-card sinova-stat-card"
                     style={{
                       padding: "20px 24px",
                       display: "flex",
@@ -154,19 +154,28 @@ export default async function SupplierRfqInboxPage({ searchParams }: PageProps) 
                       justifyContent: "space-between",
                       gap: "20px",
                       flexWrap: "wrap",
+                      borderLeft: rfq.status === "ACCEPTED"
+                        ? "4px solid var(--sinova-lime)"
+                        : hasSubmitted
+                        ? "4px solid var(--sinova-green)"
+                        : "4px solid #165246",
+                      transition: "all 0.2s var(--sinova-ease)",
                     }}
                   >
                     <div>
                       <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "6px" }}>
-                        <span className="sinova-nav-badge">{rfq.product.category.name}</span>
+                        <span className="sinova-nav-badge" style={{ backgroundColor: "var(--sinova-mint)", color: "var(--sinova-green)", border: "1px solid #b7dcce" }}>
+                          {rfq.product.category.name}
+                        </span>
                         <span
                           style={{
                             fontSize: "11px",
                             fontWeight: 800,
-                            backgroundColor: rfq.status === "ACCEPTED" ? "#082e29" : hasSubmitted ? "#eef5f2" : "#fef3c7",
-                            color: rfq.status === "ACCEPTED" ? "#c7ee72" : hasSubmitted ? "#0d5c4c" : "#92400e",
-                            padding: "2px 8px",
-                            borderRadius: "10px",
+                            backgroundColor: rfq.status === "ACCEPTED" ? "var(--sinova-deep)" : hasSubmitted ? "var(--sinova-mint)" : "var(--sinova-deep)",
+                            color: rfq.status === "ACCEPTED" ? "var(--sinova-lime)" : hasSubmitted ? "var(--sinova-green)" : "var(--sinova-lime)",
+                            padding: "3px 10px",
+                            borderRadius: "12px",
+                            border: rfq.status === "ACCEPTED" ? "none" : hasSubmitted ? "1px solid #b7dcce" : "none",
                           }}
                         >
                           {rfq.status === "SENT" ? "ACTION REQUIRED: NEW RFQ" : rfq.status}
@@ -174,16 +183,16 @@ export default async function SupplierRfqInboxPage({ searchParams }: PageProps) 
                         <span style={{ fontSize: "11.5px", color: "#60706c" }}>Received on {dateStr}</span>
                       </div>
 
-                      <h3 style={{ fontSize: "17px", fontWeight: 800, margin: "2px 0", color: "#122321" }}>
+                      <h3 style={{ fontSize: "17px", fontWeight: 800, margin: "2px 0", color: "var(--sinova-ink)" }}>
                         {rfq.product.name} <small style={{ fontWeight: 400, color: "#60706c" }}>(RFQ #{rfq.id.substring(rfq.id.length - 8)})</small>
                       </h3>
 
                       <p style={{ margin: "4px 0 0 0", fontSize: "13px", color: "#60706c" }}>
-                        Buyer: <strong>{rfq.user.name}</strong> • Quantity: {rfq.quantity.toLocaleString()} units • Target Price: ₹{rfq.targetUnitPrice}/unit (Total Target: ₹{totalTarget.toLocaleString()})
+                        Buyer: <strong style={{ color: "var(--sinova-ink)" }}>{rfq.user.name}</strong> • Quantity: {rfq.quantity.toLocaleString()} units • Target Price: ₹{rfq.targetUnitPrice}/unit (Total Target: <strong style={{ color: "var(--sinova-deep)" }}>₹{totalTarget.toLocaleString()}</strong>)
                       </p>
 
                       {rfq.sourcingRequest?.maxLeadTimeDays && (
-                        <p style={{ margin: "2px 0 0 0", fontSize: "12.5px", color: "#4f635d" }}>
+                        <p style={{ margin: "4px 0 0 0", fontSize: "12.5px", color: "var(--sinova-green)", fontWeight: 600 }}>
                           Buyer Requested Lead Time: <strong>{rfq.sourcingRequest.maxLeadTimeDays} Days max</strong>
                         </p>
                       )}
@@ -193,7 +202,7 @@ export default async function SupplierRfqInboxPage({ searchParams }: PageProps) 
                       <Link
                         href={`/supplier/rfqs/${rfq.id}`}
                         className={hasSubmitted ? "sinova-secondary-cta" : "sinova-primary-cta"}
-                        style={{ padding: "9px 16px", fontSize: "13px" }}
+                        style={{ padding: "10px 18px", fontSize: "13px" }}
                       >
                         {hasSubmitted ? "View Quotation Details &rarr;" : "Review & Submit Quote &rarr;"}
                       </Link>
